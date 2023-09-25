@@ -19,4 +19,4 @@ Operazioni tra insiemi $A, B \subseteq C$
 + Complementare $Ā= A^{C} = \{ x \in U | x \notin A\}$
 
 ### Relazioni
-Ci sono le [[Relazioni#Relazione d'ordine]] e le [[Relazioni#Relazione d'equivalenza]].
+Ci sono le [[Relazioni#Relazione d'ordine]] e le [[Relazioni#Relazione d'equivalenza]]

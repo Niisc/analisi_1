@@ -1,0 +1,181 @@
+{
+  "main": {
+    "id": "27fcbd0869a60bb0",
+    "type": "split",
+    "children": [
+      {
+        "id": "940c2ef4f53e46db",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e8454344c81adb20",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "0f1b64a409ea858b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Insiemi.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b11579de80b344ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Relazioni.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "86d1736d7db8d061",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4daf7481930005d0",
+    "type": "split",
+    "children": [
+      {
+        "id": "986f1118c6f52837",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "08817f81c2baaaec",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7d716d13a1bd0f12",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "203f56801d81ed88",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ece17a87d6e5b3fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "14c987fe671ba1bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7f826898624f92df",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d8959da4cbfa500b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "60af8da64c298fa3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "14b2bb412021a21b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "86d1736d7db8d061",
+  "lastOpenFiles": [
+    "Sommatorie.md",
+    "Relazioni.md",
+    "Insiemi.md",
+    "insieme.md"
+  ]
+}
