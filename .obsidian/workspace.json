@@ -38,17 +38,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "86d1736d7db8d061",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "ece17a87d6e5b3fc",
@@ -114,6 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Relazioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,6 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Relazioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,15 +145,25 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+              "state": {
+                "file": "Relazioni.md"
+              }
+            }
+          },
+          {
+            "id": "3253102aeaa2e706",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,11 +175,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "86d1736d7db8d061",
+  "active": "b11579de80b344ea",
   "lastOpenFiles": [
-    "Sommatorie.md",
-    "Relazioni.md",
     "Insiemi.md",
+    "Relazioni.md",
+    "Sommatorie.md",
     "insieme.md"
   ]
 }
