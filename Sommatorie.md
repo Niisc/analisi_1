@@ -9,4 +9,5 @@ $m$ numero di partenza
 $n$ numero di fine
 $I=\{m, m+1, \cdots, n-1, n\}$
 ### Proprietà
++ 
 
