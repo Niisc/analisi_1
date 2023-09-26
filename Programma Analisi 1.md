@@ -1,12 +1,23 @@
+#lezione1 
 [[! Sommatoria]]
 [[! Produttoria]]
-[[! Numeri Naturali]]
+[[! Numeri Naturali]] (manca il principio di minimo intero)
 [[! Principio di induzione]]
-Principio del minimo intero
-Numeri Razionali
-[[! Numeri Reali]]
-[[Numerabilità]]
-[[! Insiemi numerici limitati]]
+[[! Progressione Geometrica]] (da fare)
+[[Fattoriale]]
+
+#lezione2 
 [[! Relazione di Equivalenza]]
-[[!Progressione Geometrica]]
+[[!Numeri Relativi]] (da fare)
+[[!Numeri Razionali]] (da fare)
+[[! Numeri Reali]] (praticamente da fare)
+[[Assioma di Completezza]] (da fare)
+#lezione3 
+[[Numerabilità]]
+[[! Insiemi numerici limitati]] (da rivedere le ultime cose)
+
+#lezione4
 [[! Numeri Complessi]]
+[[! Insiemi numerici]] (vedere come riordinarlo)
+
+#lezione5

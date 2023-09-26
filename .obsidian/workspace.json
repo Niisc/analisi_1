@@ -8,14 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e8454344c81adb20",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "f62688f1fcf05b15",
             "type": "leaf",
             "state": {
@@ -33,14 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analisi 1/! Insiemi numerici limitati.md",
+                "file": "Analisi 1/! Numeri Complessi.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analisi 1/! Insiemi numerici limitati.md",
+                "file": "Analisi 1/! Numeri Complessi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analisi 1/! Insiemi numerici limitati.md",
+                "file": "Analisi 1/! Numeri Complessi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analisi 1/! Insiemi numerici limitati.md"
+                "file": "Analisi 1/! Numeri Complessi.md"
               }
             }
           },
@@ -175,30 +167,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "15ae8ddbe562fc48",
+  "active": "3253102aeaa2e706",
   "lastOpenFiles": [
+    "Analisi 1/! Insiemi numerici limitati.md",
+    "Analisi 1/! Numeri Naturali.md",
+    "Analisi 1/! Numeri Complessi.md",
+    "analisi prova/Principio di induzione.md",
+    "Analisi 1/! Numeri Reali.md",
+    "Programma Analisi 1.md",
+    "Analisi 1/! Produttoria.md",
+    "Analisi 1/! Progressione Geometrica.md",
+    "Analisi 1/! Principio di induzione.md",
+    "Analisi 1/! Relazione di Equivalenza.md",
+    "Analisi 1/! Sommatoria.md",
+    "Analisi 1/Fattoriale.md",
+    "Analisi 1/Numerabilità.md",
+    "analisi prova/Insiemi.md",
+    "analisi prova/Relazioni.md",
     "Legenda.md",
     "analisi prova/Sommatorie.md",
-    "analisi prova/Principio di induzione.md",
-    "analisi prova/Relazioni.md",
-    "analisi prova/Insiemi.md",
     "analisi prova",
     "Analisi 1/foto-video/c03b8e87-fdce-410b-a026-0b65f1a06f14.jpg",
     "Analisi 1/foto-video/73e7c6d7-88c3-493e-aa25-ba17c5be0735.jpg",
     "Analisi 1/foto-video",
-    "Analisi 1/Numerabilità.md",
-    "Analisi 1/Fattoriale.md",
-    "Analisi 1/!Progressione Geometrica.md",
-    "Analisi 1/! Sommatoria.md",
-    "Analisi 1/! Relazione di Equivalenza.md",
-    "Analisi 1/! Produttoria.md",
-    "Analisi 1/! Principio di induzione.md",
-    "Analisi 1/! Numeri Reali.md",
-    "Analisi 1/! Numeri Naturali.md",
-    "Analisi 1/! Numeri Complessi.md",
-    "Analisi 1/! Insiemi numerici limitati.md",
     "Analisi 1",
-    "Programma Analisi 1.md",
     "analisi_1",
     "analisi_1/Principio di induzione.md",
     "appunti_brof_anni_passati",
