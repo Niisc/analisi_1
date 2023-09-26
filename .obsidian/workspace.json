@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "940c2ef4f53e46db",
+        "id": "4dadc1e8dbe694d7",
         "type": "tabs",
         "children": [
           {
-            "id": "f62688f1fcf05b15",
+            "id": "2b7937963a0d371c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programma Analisi 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "15ae8ddbe562fc48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analisi 1/! Numeri Complessi.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analisi 1/! Numeri Complessi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analisi 1/! Numeri Complessi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Analisi 1/! Numeri Complessi.md"
-              }
+              "state": {}
             }
           },
           {
@@ -167,37 +146,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3253102aeaa2e706",
+  "active": "08817f81c2baaaec",
   "lastOpenFiles": [
-    "Analisi 1/! Insiemi numerici limitati.md",
-    "Analisi 1/! Numeri Naturali.md",
-    "Analisi 1/! Numeri Complessi.md",
-    "analisi prova/Principio di induzione.md",
-    "Analisi 1/! Numeri Reali.md",
     "Programma Analisi 1.md",
-    "Analisi 1/! Produttoria.md",
-    "Analisi 1/! Progressione Geometrica.md",
-    "Analisi 1/! Principio di induzione.md",
-    "Analisi 1/! Relazione di Equivalenza.md",
-    "Analisi 1/! Sommatoria.md",
-    "Analisi 1/Fattoriale.md",
-    "Analisi 1/Numerabilità.md",
-    "analisi prova/Insiemi.md",
-    "analisi prova/Relazioni.md",
+    "Untitled.md",
     "Legenda.md",
+    "Sommatorie.md",
+    "Principio di induzione.md",
     "analisi prova/Sommatorie.md",
+    "analisi prova/Relazioni.md",
+    "analisi prova/Principio di induzione.md",
+    "analisi prova/Insiemi.md",
     "analisi prova",
     "Analisi 1/foto-video/c03b8e87-fdce-410b-a026-0b65f1a06f14.jpg",
     "Analisi 1/foto-video/73e7c6d7-88c3-493e-aa25-ba17c5be0735.jpg",
     "Analisi 1/foto-video",
+    "Analisi 1/Numerabilità.md",
+    "Analisi 1/Fattoriale.md",
+    "Analisi 1/! Sommatoria.md",
+    "Analisi 1/! Relazione di Equivalenza.md",
+    "Analisi 1/! Progressione Geometrica.md",
+    "Analisi 1/! Produttoria.md",
+    "Analisi 1/! Principio di induzione.md",
+    "Analisi 1/! Numeri Reali.md",
+    "Analisi 1/! Numeri Naturali.md",
+    "Analisi 1/! Numeri Complessi.md",
+    "Analisi 1/! Insiemi numerici limitati.md",
     "Analisi 1",
-    "analisi_1",
-    "analisi_1/Principio di induzione.md",
-    "appunti_brof_anni_passati",
-    "esami",
-    "analisi_1/Insiemi.md",
-    "analisi_1/Sommatorie.md",
-    "analisi_1/Relazioni.md",
+    "Relazioni.md",
+    "Insiemi.md",
     "insieme.md"
   ]
 }
