@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analisi 1/! Numeri Naturali.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cdf9ba352d17b6db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "! Insiemi numerici illimitati.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -167,32 +154,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cdf9ba352d17b6db",
+  "active": "2b7937963a0d371c",
   "lastOpenFiles": [
-    "Analisi 1/! Numeri Naturali.md",
-    "! Insiemi numerici illimitati.md",
+    "Analisi 1/Numerabilità.md",
+    "! Numeri Naturali.md",
+    "Analisi 1/! Progressione Geometrica.md",
+    "Analisi 1/! Relazione di Equivalenza.md",
     "Analisi 1/! Insiemi numerici limitati.md",
+    "Analisi 1/! Principio di induzione.md",
+    "Analisi 1/! Produttoria.md",
+    "Analisi 1/Fattoriale.md",
+    "analisi prova/Relazioni.md",
+    "Analisi 1/! Sommatoria.md",
+    "analisi prova/Sommatorie.md",
+    "! Insiemi numerici.md",
     "Programma Analisi 1.md",
     "Legenda.md",
-    "Sommatorie.md",
-    "Principio di induzione.md",
-    "analisi prova/Sommatorie.md",
-    "analisi prova/Relazioni.md",
+    "! Insiemi numerici illimitati.md",
+    "Analisi 1/! Numeri Reali.md",
     "analisi prova/Principio di induzione.md",
     "analisi prova/Insiemi.md",
+    "Analisi 1/! Numeri Complessi.md",
+    "Analisi 1/! Numeri Naturali.md",
+    "Sommatorie.md",
+    "Principio di induzione.md",
     "analisi prova",
     "Analisi 1/foto-video/c03b8e87-fdce-410b-a026-0b65f1a06f14.jpg",
     "Analisi 1/foto-video/73e7c6d7-88c3-493e-aa25-ba17c5be0735.jpg",
     "Analisi 1/foto-video",
-    "Analisi 1/Numerabilità.md",
-    "Analisi 1/Fattoriale.md",
-    "Analisi 1/! Sommatoria.md",
-    "Analisi 1/! Relazione di Equivalenza.md",
-    "Analisi 1/! Progressione Geometrica.md",
-    "Analisi 1/! Produttoria.md",
-    "Analisi 1/! Principio di induzione.md",
-    "Analisi 1/! Numeri Reali.md",
-    "Analisi 1/! Numeri Complessi.md",
     "Analisi 1",
     "Relazioni.md",
     "Insiemi.md",
