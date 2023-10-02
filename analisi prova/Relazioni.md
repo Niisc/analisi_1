@@ -1,4 +1,4 @@
-In matematica una relazione è un sottoinsieme del prodotto cartesiano di due o più [[insiemi]]. 
+In matematica una relazione è un sottoinsieme del prodotto cartesiano di due o più [[Insiemi]]. 
 
 ### Relazione d'ordine
 Una relazione si dice d'ordine se vengono soddisfatte le seguenti proprietà:
@@ -11,4 +11,3 @@ Una relazione si dice d'equivalenza se vengono soddisfatte le seguenti propriet�
 + Riflessiva: $\forall x \in A$ insieme $x \sim x$
 + Simmetrica: $\forall x,y \in A$  $x \sim y$ implica $x \sim y$ 
 + Transitiva: $\forall x,y,z \in A$ $x \sim y$ e $y \sim z$ implicano $x \sim z$
-

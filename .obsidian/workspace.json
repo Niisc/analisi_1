@@ -4,55 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "940c2ef4f53e46db",
+        "id": "4dadc1e8dbe694d7",
         "type": "tabs",
         "children": [
           {
-            "id": "e8454344c81adb20",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "0f1b64a409ea858b",
+            "id": "2b7937963a0d371c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Insiemi.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b11579de80b344ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sommatorie.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "287e2208631db46d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Principio di induzione.md",
+                "file": "! Insiemi numerici illimitati.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Principio di induzione.md",
+                "file": "! Insiemi numerici illimitati.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Principio di induzione.md",
+                "file": "! Insiemi numerici illimitati.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Principio di induzione.md"
+                "file": "! Insiemi numerici illimitati.md"
               }
             }
           },
@@ -175,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 279.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,10 +154,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "287e2208631db46d",
+  "active": "2b7937963a0d371c",
   "lastOpenFiles": [
+    "Analisi 1/Numerabilità.md",
+    "! Numeri Naturali.md",
+    "Analisi 1/! Progressione Geometrica.md",
+    "Analisi 1/! Relazione di Equivalenza.md",
+    "Analisi 1/! Insiemi numerici limitati.md",
+    "Analisi 1/! Principio di induzione.md",
+    "Analisi 1/! Produttoria.md",
+    "Analisi 1/Fattoriale.md",
+    "analisi prova/Relazioni.md",
+    "Analisi 1/! Sommatoria.md",
+    "analisi prova/Sommatorie.md",
+    "! Insiemi numerici.md",
+    "Programma Analisi 1.md",
+    "Legenda.md",
+    "! Insiemi numerici illimitati.md",
+    "Analisi 1/! Numeri Reali.md",
+    "analisi prova/Principio di induzione.md",
+    "analisi prova/Insiemi.md",
+    "Analisi 1/! Numeri Complessi.md",
+    "Analisi 1/! Numeri Naturali.md",
     "Sommatorie.md",
     "Principio di induzione.md",
+    "analisi prova",
+    "Analisi 1/foto-video/c03b8e87-fdce-410b-a026-0b65f1a06f14.jpg",
+    "Analisi 1/foto-video/73e7c6d7-88c3-493e-aa25-ba17c5be0735.jpg",
+    "Analisi 1/foto-video",
+    "Analisi 1",
     "Relazioni.md",
     "Insiemi.md",
     "insieme.md"
