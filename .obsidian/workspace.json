@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "analisi prova/Insiemi.md",
+                "file": "Programma Analisi 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "analisi prova/Insiemi.md",
+                "file": "Programma Analisi 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "analisi prova/Insiemi.md",
+                "file": "Programma Analisi 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "analisi prova/Insiemi.md"
+                "file": "Programma Analisi 1.md"
               }
             }
           },
@@ -169,6 +169,7 @@
   },
   "active": "15ae8ddbe562fc48",
   "lastOpenFiles": [
+    "analisi prova/Insiemi.md",
     "Programma Analisi 1.md",
     "Analisi 1/! Insiemi numerici limitati.md",
     "Analisi 1/! Numeri Naturali.md",
@@ -182,7 +183,6 @@
     "Analisi 1/! Sommatoria.md",
     "Analisi 1/Fattoriale.md",
     "Analisi 1/Numerabilità.md",
-    "analisi prova/Insiemi.md",
     "analisi prova/Relazioni.md",
     "Legenda.md",
     "analisi prova/Sommatorie.md",
