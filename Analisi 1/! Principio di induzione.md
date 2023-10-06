@@ -26,3 +26,4 @@ Sia $P(n)$ un [[predicato]] che dipende da $n \in N$, suppongo [[che valgono]] l
 1) $P(n_0)$ è vero con $n_0 \in N$
 2) $\forall n \geq n_0\quad P(n)$ vero $\Rightarrow$ $P(n+1)$ vero
 Allora $P(n)$ è vero $\forall n \geq n_0$ 
+
