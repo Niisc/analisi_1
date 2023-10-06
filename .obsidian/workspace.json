@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "analisi prova/Insiemi.md",
-                "mode": "preview",
+                "file": "Analisi 1/! Numeri Complessi.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "analisi prova/Insiemi.md",
+                "file": "Analisi 1/! Numeri Complessi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "analisi prova/Insiemi.md",
+                "file": "Analisi 1/! Numeri Complessi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "analisi prova/Insiemi.md"
+                "file": "Analisi 1/! Numeri Complessi.md"
               }
             }
           },
@@ -150,11 +150,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 312.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,25 +167,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "08817f81c2baaaec",
+  "active": "15ae8ddbe562fc48",
   "lastOpenFiles": [
-    "Analisi 1/! Principio di induzione.md",
-    "Analisi 1/! Sommatoria.md",
-    "Analisi 1/Fattoriale.md",
-    "Programma Analisi 1.md",
-    "analisi prova/Insiemi.md",
-    "Analisi 1/! Insiemi numerici limitati.md",
-    "Analisi 1/! Numeri Naturali.md",
-    "Analisi 1/! Numeri Complessi.md",
-    "analisi prova/Principio di induzione.md",
-    "Analisi 1/! Numeri Reali.md",
-    "Analisi 1/! Produttoria.md",
-    "Analisi 1/! Progressione Geometrica.md",
-    "Analisi 1/! Relazione di Equivalenza.md",
     "Analisi 1/Numerabilità.md",
-    "analisi prova/Relazioni.md",
-    "Legenda.md",
+    "Analisi 1/! Relazione di Equivalenza.md",
+    "Analisi 1/Fattoriale.md",
+    "Analisi 1/! Progressione Geometrica.md",
+    "Analisi 1/! Principio di induzione.md",
+    "Analisi 1/! Insiemi numerici limitati.md",
+    "Analisi 1/! Numeri Complessi.md",
+    "Corrispondenza Biunivoca.md",
+    "Analisi 1/! Numeri Reali.md",
+    "Analisi 1/! Numeri Naturali.md",
+    "Analisi 1/! Produttoria.md",
+    "Analisi 1/Sommatoria.md",
     "analisi prova/Sommatorie.md",
+    "analisi prova/Relazioni.md",
+    "analisi prova/Insiemi.md",
+    "analisi prova/Principio di induzione.md",
+    "Programma Analisi 1.md",
+    "Legenda.md",
     "analisi prova",
     "Analisi 1/foto-video/c03b8e87-fdce-410b-a026-0b65f1a06f14.jpg",
     "Analisi 1/foto-video/73e7c6d7-88c3-493e-aa25-ba17c5be0735.jpg",

@@ -19,9 +19,7 @@ Allora $P(n)$ è vero $\forall n \in N$
 Assumo P(n) vera (**_ipotesi induttiva_**) e come tesi P(n+1)
 #### L'indice è muto
 non importa l'indice con cui si inizia il principio di induzione
-
-
-## Forma equivalente
+## Forma equivalente(2)
 Sia $P(n)$ un [[predicato]] che dipende da $n \in N$, suppongo [[che valgono]] le seguenti proprietà:
 1) $P(n_0)$ è vero con $n_0 \in N$
 2) $\forall n \geq n_0\quad P(n)$ vero $\Rightarrow$ $P(n+1)$ vero
