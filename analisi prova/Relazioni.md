@@ -11,4 +11,3 @@ Una relazione si dice d'equivalenza se vengono soddisfatte le seguenti propriet√
 + Riflessiva: $\forall x \in A$ insieme $x \sim x$
 + Simmetrica: $\forall x,y \in A$  $x \sim y$ implica $x \sim y$ 
 + Transitiva: $\forall x,y,z \in A$ $x \sim y$ e $y \sim z$ implicano $x \sim z$
-
