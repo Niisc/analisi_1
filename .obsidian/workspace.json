@@ -8,51 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e8454344c81adb20",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "0f1b64a409ea858b",
+            "id": "f62688f1fcf05b15",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Insiemi.md",
+                "file": "Programma Analisi 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b11579de80b344ea",
+            "id": "15ae8ddbe562fc48",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sommatorie.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "287e2208631db46d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Principio di induzione.md",
+                "file": "Analisi 1/! Numeri Complessi.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Principio di induzione.md",
+                "file": "Analisi 1/! Numeri Complessi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Principio di induzione.md",
+                "file": "Analisi 1/! Numeri Complessi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Principio di induzione.md"
+                "file": "Analisi 1/! Numeri Complessi.md"
               }
             }
           },
@@ -175,7 +155,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 312.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,12 +167,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "287e2208631db46d",
+  "active": "15ae8ddbe562fc48",
   "lastOpenFiles": [
-    "Sommatorie.md",
-    "Principio di induzione.md",
-    "Relazioni.md",
-    "Insiemi.md",
+    "Analisi 1/Numerabilità.md",
+    "Analisi 1/! Relazione di Equivalenza.md",
+    "Analisi 1/Fattoriale.md",
+    "Analisi 1/! Progressione Geometrica.md",
+    "Analisi 1/! Principio di induzione.md",
+    "Analisi 1/! Insiemi numerici limitati.md",
+    "Analisi 1/! Numeri Complessi.md",
+    "Corrispondenza Biunivoca.md",
+    "Analisi 1/! Numeri Reali.md",
+    "Analisi 1/! Numeri Naturali.md",
+    "Analisi 1/! Produttoria.md",
+    "Analisi 1/Sommatoria.md",
+    "analisi prova/Sommatorie.md",
+    "analisi prova/Relazioni.md",
+    "analisi prova/Insiemi.md",
+    "analisi prova/Principio di induzione.md",
+    "Programma Analisi 1.md",
+    "Legenda.md",
+    "analisi prova",
+    "Analisi 1/foto-video/c03b8e87-fdce-410b-a026-0b65f1a06f14.jpg",
+    "Analisi 1/foto-video/73e7c6d7-88c3-493e-aa25-ba17c5be0735.jpg",
+    "Analisi 1/foto-video",
+    "Analisi 1",
+    "analisi_1",
+    "analisi_1/Principio di induzione.md",
+    "appunti_brof_anni_passati",
+    "esami",
+    "analisi_1/Insiemi.md",
+    "analisi_1/Sommatorie.md",
+    "analisi_1/Relazioni.md",
     "insieme.md"
   ]
 }

@@ -1,4 +1,4 @@
-In matematica una relazione è un sottoinsieme del prodotto cartesiano di due o più [[insiemi]]. 
+In matematica una relazione è un sottoinsieme del prodotto cartesiano di due o più [[Insiemi]]. 
 
 ### Relazione d'ordine
 Una relazione si dice d'ordine se vengono soddisfatte le seguenti proprietà:
