@@ -1,5 +1,5 @@
 #lezione1 
-[[! Sommatoria]]
+[[Sommatoria]]
 [[! Produttoria]]
 [[! Insiemi numerici illimitati#Numeri Naturali]] (manca il principio di minimo intero)
 [[! Principio di induzione]]
