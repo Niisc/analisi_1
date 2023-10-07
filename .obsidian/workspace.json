@@ -11,11 +11,10 @@
             "id": "2b7937963a0d371c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "! Insiemi numerici illimitati.md",
-                "mode": "source",
-                "source": false
+                "file": "..gitignore.icloud",
+                "staged": false
               }
             }
           }
@@ -85,7 +84,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "! Insiemi numerici illimitati.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "! Insiemi numerici illimitati.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +121,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "! Insiemi numerici illimitati.md"
-              }
+              "state": {}
             }
           },
           {
@@ -156,12 +151,13 @@
   },
   "active": "2b7937963a0d371c",
   "lastOpenFiles": [
+    "Analisi 1/! Principio di induzione.md",
+    "Analisi 1/! Insiemi numerici limitati.md",
+    "! Insiemi numerici illimitati.md",
     "Analisi 1/Numerabilità.md",
     "! Numeri Naturali.md",
     "Analisi 1/! Progressione Geometrica.md",
     "Analisi 1/! Relazione di Equivalenza.md",
-    "Analisi 1/! Insiemi numerici limitati.md",
-    "Analisi 1/! Principio di induzione.md",
     "Analisi 1/! Produttoria.md",
     "Analisi 1/Fattoriale.md",
     "analisi prova/Relazioni.md",
@@ -170,7 +166,6 @@
     "! Insiemi numerici.md",
     "Programma Analisi 1.md",
     "Legenda.md",
-    "! Insiemi numerici illimitati.md",
     "Analisi 1/! Numeri Reali.md",
     "analisi prova/Principio di induzione.md",
     "analisi prova/Insiemi.md",
