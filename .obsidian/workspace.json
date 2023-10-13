@@ -4,6 +4,7 @@
     "type": "split",
     "children": [
       {
+<<<<<<< HEAD
         "id": "51d7f7afb7b07dd9",
         "type": "tabs",
         "children": [
@@ -13,6 +14,20 @@
             "state": {
               "type": "empty",
               "state": {}
+=======
+        "id": "4dadc1e8dbe694d7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b7937963a0d371c",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "..gitignore.icloud",
+                "staged": false
+              }
+>>>>>>> main
             }
           }
         ]
@@ -134,7 +149,11 @@
       }
     ],
     "direction": "horizontal",
+<<<<<<< HEAD
     "width": 200
+=======
+    "width": 279.5
+>>>>>>> main
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,6 +166,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
+<<<<<<< HEAD
   "active": "48e9b47f137e18cb",
   "lastOpenFiles": [
     "Analisi 1/foto-video/photo1697212805 (1).jpeg",
@@ -174,23 +194,42 @@
     "Analisi 1/! Progressione Geometrica.md",
     "Corrispondenza Biunivoca.md",
     "Analisi 1/! Numeri Naturali.md",
+=======
+  "active": "2b7937963a0d371c",
+  "lastOpenFiles": [
+    "Analisi 1/! Principio di induzione.md",
+    "Analisi 1/! Insiemi numerici limitati.md",
+    "! Insiemi numerici illimitati.md",
+    "Analisi 1/Numerabilità.md",
+    "! Numeri Naturali.md",
+    "Analisi 1/! Progressione Geometrica.md",
+    "Analisi 1/! Relazione di Equivalenza.md",
+>>>>>>> main
     "Analisi 1/! Produttoria.md",
-    "Analisi 1/Sommatoria.md",
-    "analisi prova/Sommatorie.md",
+    "Analisi 1/Fattoriale.md",
     "analisi prova/Relazioni.md",
+<<<<<<< HEAD
     "analisi prova/Insiemi.md",
     "analisi prova/Principio di induzione.md",
+=======
+    "Analisi 1/! Sommatoria.md",
+    "analisi prova/Sommatorie.md",
+    "! Insiemi numerici.md",
+    "Programma Analisi 1.md",
+>>>>>>> main
     "Legenda.md",
+    "Analisi 1/! Numeri Reali.md",
+    "analisi prova/Principio di induzione.md",
+    "analisi prova/Insiemi.md",
+    "Analisi 1/! Numeri Complessi.md",
+    "Analisi 1/! Numeri Naturali.md",
+    "Sommatorie.md",
+    "Principio di induzione.md",
     "analisi prova",
     "Analisi 1/foto-video",
     "Analisi 1",
-    "analisi_1",
-    "analisi_1/Principio di induzione.md",
-    "appunti_brof_anni_passati",
-    "esami",
-    "analisi_1/Insiemi.md",
-    "analisi_1/Sommatorie.md",
-    "analisi_1/Relazioni.md",
+    "Relazioni.md",
+    "Insiemi.md",
     "insieme.md"
   ]
 }

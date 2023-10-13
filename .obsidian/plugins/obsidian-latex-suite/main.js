@@ -1763,16 +1763,6 @@ NodeProp.group = new NodeProp({ deserialize: (str) => str.split(" ") });
 NodeProp.contextHash = new NodeProp({ perNode: true });
 NodeProp.lookAhead = new NodeProp({ perNode: true });
 NodeProp.mounted = new NodeProp({ perNode: true });
-var MountedTree = class {
-  constructor(tree, overlay, parser2) {
-    this.tree = tree;
-    this.overlay = overlay;
-    this.parser = parser2;
-  }
-  static get(tree) {
-    return tree && tree.props && tree.props[NodeProp.mounted.id];
-  }
-};
 var noProps = Object.create(null);
 var NodeType = class {
   constructor(name, props, id2, flags = 0) {
@@ -1883,7 +1873,7 @@ var Tree = class {
     }
   }
   toString() {
-    let mounted = MountedTree.get(this);
+    let mounted = this.prop(NodeProp.mounted);
     if (mounted && !mounted.overlay)
       return mounted.tree.toString();
     let children = "";
@@ -1919,9 +1909,6 @@ var Tree = class {
     let node = resolveNode(CachedInnerNode.get(this) || this.topNode, pos, side, true);
     CachedInnerNode.set(this, node);
     return node;
-  }
-  resolveStack(pos, side = 0) {
-    return stackIterator(this, pos, side);
   }
   iterate(spec) {
     let { enter, leave, from = 0, to = this.length } = spec;
@@ -2061,6 +2048,21 @@ function checkSide(side, pos, from, to) {
       return true;
   }
 }
+function enterUnfinishedNodesBefore(node, pos) {
+  let scan = node.childBefore(pos);
+  while (scan) {
+    let last = scan.lastChild;
+    if (!last || last.to != scan.to)
+      break;
+    if (last.type.isError && last.from == last.to) {
+      node = scan;
+      scan = last.prevSibling;
+    } else {
+      scan = last;
+    }
+  }
+  return node;
+}
 function resolveNode(node, pos, side, overlays) {
   var _a;
   while (node.from == node.to || (side < 1 ? node.from >= pos : node.from > pos) || (side > -1 ? node.to <= pos : node.to < pos)) {
@@ -2082,51 +2084,8 @@ function resolveNode(node, pos, side, overlays) {
     node = inner;
   }
 }
-var BaseNode = class {
-  cursor(mode = 0) {
-    return new TreeCursor(this, mode);
-  }
-  getChild(type, before = null, after = null) {
-    let r = getChildren(this, type, before, after);
-    return r.length ? r[0] : null;
-  }
-  getChildren(type, before = null, after = null) {
-    return getChildren(this, type, before, after);
-  }
-  resolve(pos, side = 0) {
-    return resolveNode(this, pos, side, false);
-  }
-  resolveInner(pos, side = 0) {
-    return resolveNode(this, pos, side, true);
-  }
-  matchContext(context) {
-    return matchNodeContext(this, context);
-  }
-  enterUnfinishedNodesBefore(pos) {
-    let scan = this.childBefore(pos), node = this;
-    while (scan) {
-      let last = scan.lastChild;
-      if (!last || last.to != scan.to)
-        break;
-      if (last.type.isError && last.from == last.to) {
-        node = scan;
-        scan = last.prevSibling;
-      } else {
-        scan = last;
-      }
-    }
-    return node;
-  }
-  get node() {
-    return this;
-  }
-  get next() {
-    return this.parent;
-  }
-};
-var TreeNode = class extends BaseNode {
+var TreeNode = class {
   constructor(_tree, from, index, _parent) {
-    super();
     this._tree = _tree;
     this.from = from;
     this.index = index;
@@ -2155,7 +2114,7 @@ var TreeNode = class extends BaseNode {
             return new BufferNode(new BufferContext(parent, next, i, start2), null, index);
         } else if (mode & IterMode.IncludeAnonymous || (!next.type.isAnonymous || hasChild(next))) {
           let mounted;
-          if (!(mode & IterMode.IgnoreMounts) && (mounted = MountedTree.get(next)) && !mounted.overlay)
+          if (!(mode & IterMode.IgnoreMounts) && next.props && (mounted = next.prop(NodeProp.mounted)) && !mounted.overlay)
             return new TreeNode(mounted.tree, start2, i, parent);
           let inner = new TreeNode(next, start2, i, parent);
           return mode & IterMode.IncludeAnonymous || !inner.type.isAnonymous ? inner : inner.nextChild(dir < 0 ? next.children.length - 1 : 0, dir, pos, side);
@@ -2186,7 +2145,7 @@ var TreeNode = class extends BaseNode {
   }
   enter(pos, side, mode = 0) {
     let mounted;
-    if (!(mode & IterMode.IgnoreOverlays) && (mounted = MountedTree.get(this._tree)) && mounted.overlay) {
+    if (!(mode & IterMode.IgnoreOverlays) && (mounted = this._tree.prop(NodeProp.mounted)) && mounted.overlay) {
       let rPos = pos - this.from;
       for (let { from, to } of mounted.overlay) {
         if ((side > 0 ? from <= rPos : from < rPos) && (side < 0 ? to >= rPos : to > rPos))
@@ -2210,14 +2169,39 @@ var TreeNode = class extends BaseNode {
   get prevSibling() {
     return this._parent && this.index >= 0 ? this._parent.nextChild(this.index - 1, -1, 0, 4) : null;
   }
+  cursor(mode = 0) {
+    return new TreeCursor(this, mode);
+  }
   get tree() {
     return this._tree;
   }
   toTree() {
     return this._tree;
   }
+  resolve(pos, side = 0) {
+    return resolveNode(this, pos, side, false);
+  }
+  resolveInner(pos, side = 0) {
+    return resolveNode(this, pos, side, true);
+  }
+  enterUnfinishedNodesBefore(pos) {
+    return enterUnfinishedNodesBefore(this, pos);
+  }
+  getChild(type, before = null, after = null) {
+    let r = getChildren(this, type, before, after);
+    return r.length ? r[0] : null;
+  }
+  getChildren(type, before = null, after = null) {
+    return getChildren(this, type, before, after);
+  }
   toString() {
     return this._tree.toString();
+  }
+  get node() {
+    return this;
+  }
+  matchContext(context) {
+    return matchNodeContext(this, context);
   }
 };
 function getChildren(node, type, before, after) {
@@ -2258,7 +2242,7 @@ var BufferContext = class {
     this.start = start2;
   }
 };
-var BufferNode = class extends BaseNode {
+var BufferNode = class {
   get name() {
     return this.type.name;
   }
@@ -2269,7 +2253,6 @@ var BufferNode = class extends BaseNode {
     return this.context.start + this.context.buffer.buffer[this.index + 2];
   }
   constructor(context, _parent, index) {
-    super();
     this.context = context;
     this._parent = _parent;
     this.index = index;
@@ -2319,6 +2302,9 @@ var BufferNode = class extends BaseNode {
       return this.externalSibling(-1);
     return new BufferNode(this.context, this._parent, buffer.findChild(parentStart, this.index, -1, 0, 4));
   }
+  cursor(mode = 0) {
+    return new TreeCursor(this, mode);
+  }
   get tree() {
     return null;
   }
@@ -2333,57 +2319,32 @@ var BufferNode = class extends BaseNode {
     }
     return new Tree(this.type, children, positions, this.to - this.from);
   }
+  resolve(pos, side = 0) {
+    return resolveNode(this, pos, side, false);
+  }
+  resolveInner(pos, side = 0) {
+    return resolveNode(this, pos, side, true);
+  }
+  enterUnfinishedNodesBefore(pos) {
+    return enterUnfinishedNodesBefore(this, pos);
+  }
   toString() {
     return this.context.buffer.childString(this.index);
   }
-};
-function iterStack(heads) {
-  if (!heads.length)
-    return null;
-  if (heads.length == 1)
-    return heads[0];
-  let pick = 0, picked = heads[0];
-  for (let i = 1; i < heads.length; i++) {
-    let node = heads[i];
-    if (node.from > picked.from || node.to < picked.to) {
-      picked = node;
-      pick = i;
-    }
+  getChild(type, before = null, after = null) {
+    let r = getChildren(this, type, before, after);
+    return r.length ? r[0] : null;
   }
-  let next = picked instanceof TreeNode && picked.index < 0 ? null : picked.parent;
-  let newHeads = heads.slice();
-  if (next)
-    newHeads[pick] = next;
-  else
-    newHeads.splice(pick, 1);
-  return new StackIterator(newHeads, picked);
-}
-var StackIterator = class {
-  constructor(heads, node) {
-    this.heads = heads;
-    this.node = node;
+  getChildren(type, before = null, after = null) {
+    return getChildren(this, type, before, after);
   }
-  get next() {
-    return iterStack(this.heads);
+  get node() {
+    return this;
+  }
+  matchContext(context) {
+    return matchNodeContext(this, context);
   }
 };
-function stackIterator(tree, pos, side) {
-  let inner = tree.resolveInner(pos, side), layers = null;
-  for (let scan = inner instanceof TreeNode ? inner : inner.context.parent; scan; scan = scan.parent) {
-    if (scan.index < 0) {
-      let parent = scan.parent;
-      (layers || (layers = [inner])).push(parent.resolve(pos, side));
-      scan = parent;
-    } else {
-      let mount = MountedTree.get(scan.tree);
-      if (mount && mount.overlay && mount.overlay[0].from <= pos && mount.overlay[mount.overlay.length - 1].to >= pos) {
-        let root = new TreeNode(mount.tree, mount.overlay[0].from + scan.from, 0, null);
-        (layers || (layers = [inner])).push(resolveNode(root, pos, side, false));
-      }
-    }
-  }
-  return layers ? iterStack(layers) : inner;
-}
 var TreeCursor = class {
   get name() {
     return this.type.name;
@@ -7369,8 +7330,10 @@ var import_commands3 = __toModule(require("@codemirror/commands"));
 var import_state8 = __toModule(require("@codemirror/state"));
 var import_view9 = __toModule(require("@codemirror/view"));
 var LATEX_SUITE_TABSTOP_DECO_CLASS = "latex-suite-snippet-placeholder";
-function getMarkerDecoration(from, to, color) {
-  const className = `${LATEX_SUITE_TABSTOP_DECO_CLASS} ${LATEX_SUITE_TABSTOP_DECO_CLASS}-${color}`;
+function getMarkerDecoration(from, to, color, hidden = false) {
+  const className = hidden ? "" : `${LATEX_SUITE_TABSTOP_DECO_CLASS} ${LATEX_SUITE_TABSTOP_DECO_CLASS}-${color}`;
+  if (hidden)
+    console.log("hidden!");
   return import_view9.Decoration.mark({
     inclusive: true,
     color,
@@ -7383,50 +7346,6 @@ var TabstopGroup = class {
     this.decos = import_view9.Decoration.set(decos, true);
     this.color = color;
     this.hidden = false;
-  }
-  select(view, selectEndpoints, isEndSnippet) {
-    const sel = this.toEditorSelection();
-    const toSelect = selectEndpoints ? getEditorSelectionEndpoints(sel) : sel;
-    view.dispatch({
-      selection: toSelect,
-      effects: isEndSnippet ? endSnippet.of(null) : null
-    });
-    resetCursorBlink();
-    this.hideFromEditor();
-  }
-  toSelectionRanges() {
-    const ranges = [];
-    const cur = this.decos.iter();
-    while (cur.value != null) {
-      ranges.push(import_state8.EditorSelection.range(cur.from, cur.to));
-      cur.next();
-    }
-    return ranges;
-  }
-  toEditorSelection() {
-    return import_state8.EditorSelection.create(this.toSelectionRanges());
-  }
-  containsSelection(selection) {
-    function rangeLiesWithinSelection(range, sel) {
-      for (const selRange of sel) {
-        if (selRange.from <= range.from && selRange.to >= range.to) {
-          return true;
-        }
-      }
-      return false;
-    }
-    const tabstopRanges = this.toSelectionRanges();
-    let result = true;
-    for (const range of selection.ranges) {
-      if (!rangeLiesWithinSelection(range, tabstopRanges)) {
-        result = false;
-        break;
-      }
-    }
-    return result;
-  }
-  hideFromEditor() {
-    this.hidden = true;
   }
   map(changes) {
     this.decos = this.decos.map(changes);
@@ -7441,6 +7360,28 @@ var TabstopGroup = class {
       cur.next();
     }
     return ranges;
+  }
+  toEditorSelection() {
+    const ranges = [];
+    const cur = this.decos.iter();
+    while (cur.value != null) {
+      ranges.push(import_state8.EditorSelection.range(cur.from, cur.to));
+      cur.next();
+    }
+    return import_state8.EditorSelection.create(ranges);
+  }
+  select(view, selectEndpoints, isEndSnippet) {
+    const sel = this.toEditorSelection();
+    const toSelect = selectEndpoints ? getEditorSelectionEndpoints(sel) : sel;
+    view.dispatch({
+      selection: toSelect,
+      effects: isEndSnippet ? endSnippet.of(null) : null
+    });
+    resetCursorBlink();
+    this.hideFromEditor();
+  }
+  hideFromEditor() {
+    this.hidden = true;
   }
 };
 function tabstopSpecsToTabstopGroups(tabstops, color) {
@@ -7459,6 +7400,24 @@ function tabstopSpecsToTabstopGroups(tabstops, color) {
   for (const number of numbers) {
     const grp = new TabstopGroup(tabstopsByNumber[number], color);
     result.push(grp);
+  }
+  return result;
+}
+function editorSelectionLiesWithinAnother(a, b) {
+  function rangeLiesWithinSelection(range, sel) {
+    for (const selRange of sel.ranges) {
+      if (selRange.from <= range.from && selRange.to >= range.to) {
+        return true;
+      }
+    }
+    return false;
+  }
+  let result = true;
+  for (const range of a.ranges) {
+    if (!rangeLiesWithinSelection(range, b)) {
+      result = false;
+      break;
+    }
   }
   return result;
 }
@@ -7542,7 +7501,7 @@ function removeOnlyTabstop(view) {
 function isInsideATabstop(view) {
   const currentTabstopGroups = getTabstopGroupsFromView(view);
   for (const tabstopGroup of currentTabstopGroups) {
-    if (tabstopGroup.containsSelection(view.state.selection)) {
+    if (editorSelectionLiesWithinAnother(view.state.selection, tabstopGroup.toEditorSelection())) {
       return true;
     }
   }
@@ -7554,7 +7513,8 @@ function consumeAndGotoNextTabstop(view) {
   removeTabstop(view);
   const oldSel = view.state.selection;
   const nextGrp = getTabstopGroupsFromView(view)[0];
-  const shouldMoveToEndpoints = nextGrp.containsSelection(oldSel);
+  const nextSel = nextGrp.toEditorSelection();
+  const shouldMoveToEndpoints = editorSelectionLiesWithinAnother(view.state.selection, nextSel);
   nextGrp.select(view, shouldMoveToEndpoints, false);
   const newSel = view.state.selection;
   if (oldSel.eq(newSel))
