@@ -16,8 +16,9 @@
 [[Numerabilità]]
 [[! Insiemi numerici limitati]] (da rivedere le ultime cose)
 
-#lezione4
-[[! Numeri Complessi]]
-[[! Insiemi numerici]] (vedere come riordinarlo)
+#lezione4 #lezione5
+[[! Numeri Complessi]] (disuguaglianza triangolare)
 
-#lezione5
+#lezione6 
+[[Funzioni]]
+

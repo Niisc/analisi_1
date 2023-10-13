@@ -21,3 +21,4 @@ $$(a,b)+(-a,-b)=(-a,-b)+(a,b)=(0,0)\rightarrow (-a,-b)\ elemento\ inverso\ della
 ###### 5) $\forall(a,b) \in RxR$ \\ $\{(0,0)\}$:
 $$\huge{\exists}!\normalsize\left( \frac{a}{a^2+b^2};\frac{-b}{a^2+b^2} \right)\quad\huge|\normalsize\quad(a,b)*\left( \frac{a}{a^2+b^2};\frac{-b}{a^2+b^2} \right)=(1,0)$$ $\left( \frac{a}{a^2+b^2};\frac{-b}{a^2+b^2} \right)$ elemento inverso per il prodotto
 $$\huge RxR\longrightarrow \mathbb{C}\ Campo \ Complesso$$
+[[! Numeri Complessi]]

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analisi 1/! Numeri Complessi.md",
+                "file": "Analisi 1/Funzioni.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analisi 1/! Numeri Complessi.md",
+                "file": "Analisi 1/Funzioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analisi 1/! Numeri Complessi.md",
+                "file": "Analisi 1/Funzioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analisi 1/! Numeri Complessi.md"
+                "file": "Analisi 1/Funzioni.md"
               }
             }
           },
@@ -137,11 +137,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 312.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -154,17 +155,29 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7f826898624f92df",
+  "active": "48e9b47f137e18cb",
   "lastOpenFiles": [
-    "Analisi 1/! Numeri Reali.md",
-    "Analisi 1/! Numeri Complessi.md",
+    "photo1697212805 (3).jpeg",
+    "photo1697212805 (2).jpeg",
+    "photo1697212805 (1).jpeg",
+    "photo1697212805.jpeg",
+    "! Funzioni.pdf",
+    "Analisi 1/Funzioni.md",
     "Programma Analisi 1.md",
+    "Analisi 1/! Numeri Complessi.md",
+    "Analisi 1/! Insiemi numerici limitati.md",
+    "Analisi 1/Teorema fondamentale dell'algebra.md",
+    "Analisi 1/foto-video/photo1696785653.jpeg",
+    "Analisi 1/foto-video/msg1048603746-11738.jpg",
+    "Analisi 1/foto-video/e8486692-819b-49eb-a8d6-687eb67fc34b.jpg",
+    "Analisi 1/foto-video/cd805084-fb73-44fd-909c-a2c1f2b2d18e.jpg",
+    "Analisi 1/foto-video/07df121a-41cb-45ba-9dc5-66de0cfbaaa3.jpg",
+    "Analisi 1/! Numeri Reali.md",
+    "Analisi 1/! Principio di induzione.md",
     "Analisi 1/Numerabilità.md",
     "Analisi 1/! Relazione di Equivalenza.md",
     "Analisi 1/Fattoriale.md",
     "Analisi 1/! Progressione Geometrica.md",
-    "Analisi 1/! Principio di induzione.md",
-    "Analisi 1/! Insiemi numerici limitati.md",
     "Corrispondenza Biunivoca.md",
     "Analisi 1/! Numeri Naturali.md",
     "Analisi 1/! Produttoria.md",
