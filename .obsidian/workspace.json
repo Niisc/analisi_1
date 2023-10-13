@@ -11,12 +11,8 @@
             "id": "48e9b47f137e18cb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analisi 1/Funzioni.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analisi 1/Funzioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analisi 1/Funzioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Analisi 1/Funzioni.md"
-              }
+              "state": {}
             }
           },
           {
@@ -157,21 +149,23 @@
   },
   "active": "48e9b47f137e18cb",
   "lastOpenFiles": [
-    "photo1697212805 (3).jpeg",
-    "photo1697212805 (2).jpeg",
-    "photo1697212805 (1).jpeg",
+    "Analisi 1/foto-video/photo1697212805 (1).jpeg",
+    "Analisi 1/foto-video/photo1697212805.jpeg",
+    "Analisi 1/foto-video/photo1697212805 (3).jpeg",
+    "Analisi 1/foto-video/photo1697212805 (2).jpeg",
     "photo1697212805.jpeg",
-    "! Funzioni.pdf",
+    "Analisi 1/photo1697212805 (3).jpeg",
+    "Analisi 1/photo1697212805 (2).jpeg",
+    "Analisi 1/photo1697212805 (1).jpeg",
+    "Analisi 1/photo1697212805.jpeg",
+    "photo1697212805 (1).jpeg",
     "Analisi 1/Funzioni.md",
+    "photo1697212805 (3).jpeg",
+    "! Funzioni.pdf",
     "Programma Analisi 1.md",
     "Analisi 1/! Numeri Complessi.md",
     "Analisi 1/! Insiemi numerici limitati.md",
     "Analisi 1/Teorema fondamentale dell'algebra.md",
-    "Analisi 1/foto-video/photo1696785653.jpeg",
-    "Analisi 1/foto-video/msg1048603746-11738.jpg",
-    "Analisi 1/foto-video/e8486692-819b-49eb-a8d6-687eb67fc34b.jpg",
-    "Analisi 1/foto-video/cd805084-fb73-44fd-909c-a2c1f2b2d18e.jpg",
-    "Analisi 1/foto-video/07df121a-41cb-45ba-9dc5-66de0cfbaaa3.jpg",
     "Analisi 1/! Numeri Reali.md",
     "Analisi 1/! Principio di induzione.md",
     "Analisi 1/Numerabilità.md",
@@ -188,8 +182,6 @@
     "analisi prova/Principio di induzione.md",
     "Legenda.md",
     "analisi prova",
-    "Analisi 1/foto-video/c03b8e87-fdce-410b-a026-0b65f1a06f14.jpg",
-    "Analisi 1/foto-video/73e7c6d7-88c3-493e-aa25-ba17c5be0735.jpg",
     "Analisi 1/foto-video",
     "Analisi 1",
     "analisi_1",
