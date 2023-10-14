@@ -1,38 +1,35 @@
 #lezione1 
 [[Sommatoria]]
-[[! Produttoria]]
-[[! Insiemi numerici illimitati#Numeri Naturali]] (manca il principio di minimo intero)
-[[! Principio di induzione]]
-[[! Progressione Geometrica]] (da fare)
+[[Produttoria]] (manca tutto)
+[[Numeri naturali]] (manca il principio di minimo intero)
+[[Principio di induzione]]
+[[Progressione Geometrica]] (da fare)
 [[Fattoriale]]
 
 #lezione2 
-[[! Relazione di Equivalenza]]
-[[! Insiemi numerici illimitati#Numeri interi relativi]]  (da fare)
-[[! Insiemi numerici illimitati#Numeri razionali]] (da fare)
-[[! Insiemi numerici illimitati#Numeri reali]] (praticamente da fare)
+[[Relazione di Equivalenza]] (finire)
+[[Numeri interi]]  (da fare)
+[[Numeri razionali]] (da fare)
+[[Numeri reali]] (praticamente da fare)
 [[Assioma di Completezza]] (da fare)
 
 #lezione3 
 [[Numerabilità]]
-[[! Insiemi numerici limitati]] (da rivedere le ultime cose)
+[[Insiemi numerici limitati]] (da rivedere le ultime cose)
 
-<<<<<<< HEAD
+
 #lezione4 #lezione5
-[[! Numeri Complessi]] (disuguaglianza triangolare)
+[[Numeri Complessi]] (disuguaglianza triangolare)
 
 #lezione6 
 [[Funzioni]]
-=======
-#lezione4
-[[! Insiemi numerici illimitati#Numeri complessi]]
-[[! Insiemi numerici]] (vedere come riordinarlo)
->>>>>>> main
 
-#lezione5
+#lezione4
+[[Numeri complessi]]
+
 
 #lezione7 
-[[funzioni]]
+[[Funzioni]]
 [[Teorema di unicità del limite]]
 [[Teorema del confronto di successioni]]
 [[Teorema di permanenza  del segno]]

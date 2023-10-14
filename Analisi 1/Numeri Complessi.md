@@ -1,4 +1,24 @@
-![[! Numeri Reali#Campo Complesso]]
+### Campo Complesso
+Estendendo in modo che ogni equazione polinomiale di grado **n** abbia esattamente n soluzioni (contate con la loro molteplicità):
+Sia $\mathbb{R} \times \mathbb{R}$ l'insieme delle coppie ordinate di numeri reali $(a,b)\in \mathbb{R} \times \mathbb{R}$. Definisco le operazioni di **Somma** e **Prodotto** $\forall (a,b),(c,d)\in \mathbb{R} \times \mathbb{R}$ :
+$$+:\quad(a,b)+(c,d)\ =\ (a+c,b+b)$$$$\times:\quad(a,b)\times(c,d)\ =\ (ac-bd,ad+bc)$$
+###### Esempio:
+- $\left(1;-5\right)+\left( \sqrt2;{\frac{1}{2}} \right)=\left( 1+\sqrt{2};-5+{\frac{1}{2}} \right)=\left( 1+\sqrt{ 2 };{-\frac{9}{2}} \right)$
+- $\left(1;-5\right)\times\left( \sqrt{2};{\frac{1}{2}} \right)=\left(\sqrt{2}+{\frac{5}{2}};{\frac{1}{2}}-5\sqrt{ 2 } \right)$ 
+#### Osservazioni
+1) $\forall(a,b) \in \mathbb{R} \times \mathbb{R}\qquad (a,b)+(0,0)=(0,0)+(a,b)=(a,b)$ 
+$$(0,0)\ Elemento\ Neutro\ per \ la\ somma$$
+2) $\forall(a,b) \in \mathbb{R} \times \mathbb{R}\qquad (a,b)*(1,0)=(1,0)*(a,b)=(a,b)$ 
+$$(1,0)\ Elemento\ Neutro\ per \ il\ prodotto$$
+3) La somma e il prodotto godono della proprietà commutativa e associativa
+
+4) $\forall(a,b) \in \mathbb{R} \times \mathbb{R}$ esiste $(-a;-b)$ tale che:  
+$$(a,b)+(-a,-b)=(-a,-b)+(a,b)=(0,0)\rightarrow (-a,-b)\ elemento\ inverso\ della\  somma$$
+5) $\forall(a,b) \in \mathbb{R} \times \mathbb{R}$ \ $\{(0,0)\}$:
+$$\huge{\exists}!\normalsize\left( \frac{a}{a^2+b^2};\frac{-b}{a^2+b^2} \right)\quad\huge|\normalsize\quad(a,b)*\left( \frac{a}{a^2+b^2};\frac{-b}{a^2+b^2} \right)=(1,0)$$ $\left( \frac{a}{a^2+b^2};\frac{-b}{a^2+b^2} \right)$ elemento inverso per il prodotto
+$$\huge \mathbb{R} \times \mathbb{R}\longrightarrow \mathbb{C}\ Campo \ Complesso$$
+
+
 ## Osservazione: $\mathbb{C}$ estende $R$:
 ##### Tutti i numeri della forma $(a;0)$ sono numeri reali:
 $$(a,0)+(c,0)=(a+c;0)\quad \forall a \in R$$
@@ -71,12 +91,12 @@ $(2\pi-Arg(z)=-\ \theta)$
 ![[e8486692-819b-49eb-a8d6-687eb67fc34b.jpg|300]]
 2) $z-\overline z=(a+ib)+(a-ib)=2ib=2iIm(z) \longrightarrow$ Numero immaginario puro
 ![[photo1696785653.jpeg|300]]
-3) $z*\overline z =(a+ib)*(a-ib)=a^{2}-i^{2}b^{2}=a^{2}+b^{2}=\huge |z|^{2}\in\mathbb{R},|z|^{2}\geq 0$
-4) $\huge\frac{z}{\overline z}$$=\frac{a+ib}{a-ib}*\frac{a+ib}{a+ib}=\frac{a^{2}+2aib+i^{2}b^{2}}{a^{2}b^{2}}=Re\biggl(\huge\frac{{a^{2}-b^{2}}}{{a^{2}+b^{2}}}$$\biggl)+\ i*Im\biggl( \huge\frac{2ab}{a^{2}+b^{2}}$$\biggl)$ 
-###### Osservazione $\huge\frac{\overline z}{z}$:
+3) $z\times\overline z =(a+ib)*(a-ib)=a^{2}-i^{2}b^{2}=a^{2}+b^{2}=\huge |z|^{2}\in\mathbb{R},|z|^{2}\geq 0$
+4) $\huge\frac{z}{\overline z}$$=\frac{a+ib}{a-ib}\times\frac{a+ib}{a+ib}=\frac{a^{2}+2aib+i^{2}b^{2}}{a^{2}b^{2}}=Re\biggl(\huge\frac{{a^{2}-b^{2}}}{{a^{2}+b^{2}}}$$\biggl)+\ i\times Im\biggl( \huge\frac{2ab}{a^{2}+b^{2}}$$\biggl)$ 
+##### Osservazione $\huge\frac{\overline z}{z}$:
 $\huge\frac{\overline z}{z}=$$Re\biggl(\huge\frac{{a^{2}-b^{2}}}{{a^{2}+b^{2}}}$$\biggl)-\ i*Im\biggl( \huge\frac{2ab}{a^{2}+b^{2}}$$\biggl)$ 
-$\huge\frac{\overline z}{z}*\frac{\overline z}{\overline z}$=$\huge\frac{\overline z^{2}}{|z|^{2}}$
-$\huge\frac{\overline z}{z}*\frac{z}{z}$=$\huge\frac{z^{2}}{|z|^{2}}$
+$\huge\frac{\overline z}{z}\times\frac{\overline z}{\overline z}$=$\huge\frac{\overline z^{2}}{|z|^{2}}$
+$\huge\frac{\overline z}{z}\times\frac{z}{z}$=$\huge\frac{z^{2}}{|z|^{2}}$
 ##### 5) Disuguaglianza Triangolare
 $$\forall z,w \in \mathbb{C}\qquad |z+w|\leq|z|+|w|$$
 ##### Dimostrazione
@@ -92,5 +112,5 @@ Sia $w \in \mathbb{C},w \not= 0$ e sia $n \in \mathbb{N}-\{0\}$: $$w=\gamma(\cos
 #finire 
 ###### Osservazione le radici $z_{k}$ n-esime si dispongono in una circonferenza di raggio $\rho _k= \sqrt[n]{\gamma}$ come vertici di un poligono regolare iscritto.
 $\theta _k-\theta_{k-1}=\frac{\alpha+2k\pi}{n}-\frac{\alpha+2(k-1)\pi}{n}=\huge \frac{2\pi}{b}\quad costante$
-# Teorema fondamentale dellalgebra
+### Teorema fondamentale dell'algebra
 ![[Teorema fondamentale dell'algebra]]

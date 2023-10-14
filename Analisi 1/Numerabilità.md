@@ -1,12 +1,11 @@
 #lezione3
-$$N\subseteq Z \subseteq Q \subseteq R\qquad Insiemi \quad infiniti$$
+$$\mathbb{N}\subseteq \mathbb{Z} \subseteq \mathbb{Q} \subseteq \mathbb{R} \quad Insiemi \quad infiniti$$
 
-## Corrispondenza Biunivoca
+### Corrispondenza Biunivoca
 
-^0114fb
+Stabilire quale degli insiemi sia il più "*numeroso*":
+Due insiemi A,B si dicono di *uguale cardinalità* (traducibile in numerosità) se possono essere messi in corrispondenza biunivoca tra loro, cioè se esiste una legge che associa ad ogni elemento di A uno e uno solo di B e viceversa.
 
-#### Stabilire quale degli insiemi sia il più "*numeroso*":
-##### Due insiemi A,B si dicono di *uguale cardinalità* (traducibile in numerosità) se possono essere messi in corrispondenza biunivoca tra loro, cioè se esiste una legge che associa ad ogni elemento di A uno e uno solo di B e viceversa.
 - (confronto, non conto)
 Identifichiamo l'idea di uguale numerosità con una *corrispondenza biunivoca*:
  ###### $N=\{0,1,2,3,...\}\quad N_2=\{2,3,4,5...\}$

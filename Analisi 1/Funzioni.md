@@ -24,14 +24,14 @@ $\mathbb{D}_{f}=Dominio$
 Esempio: $f(x)=\log(x+1)\qquad \mathbb{D}_{f}=\{x \in \mathbb{R}\ |\ x+1>0\}=(-1;+\infty)$
 Data $f:A \longrightarrow B$ Funzione, $\mathrm{Im}(f) \subseteq B \subseteq \mathbb{R}$
 ## Funzioni limitate
-$f$ si dice **Limitata** se è limitato l'insieme ([[! Insiemi numerici limitati]])  $Im(f)$ ovvero se esiste $M>0$ tale che:
+$f$ si dice **Limitata** se è limitato l'insieme ([[Insiemi numerici limitati]])  $Im(f)$ ovvero se esiste $M>0$ tale che:
 $$\forall y \in Im(f) \quad -M \le y \le M $$	$$f(x)=y \quad -M \le y \le M\quad   \forall x \in \mathbb{D}_f$$
 ### Funzioni limitate superiormente
-$f$ si dice **Limitata superiormente** se è limitato superiormente l'insieme ([[! Insiemi numerici limitati]])  $Im(f)$ ovvero se esiste $k \in \mathbb{R}$  tale che:
+$f$ si dice **Limitata superiormente** se è limitato superiormente l'insieme ([[Insiemi numerici limitati]])  $Im(f)$ ovvero se esiste $k \in \mathbb{R}$  tale che:
 $$\forall y \in Im(f) \quad y \le k $$
 $$f(x)\le k \quad \forall x \in \mathbb{D}_f$$
 ### Funzioni limitate inferiormente
-$f$ si dice **Limitata inferiormente** se è limitato inferiormente l'insieme ([[! Insiemi numerici limitati]])  $Im(f)$ ovvero se esiste $k \in \mathbb{R}$  tale che:
+$f$ si dice **Limitata inferiormente** se è limitato inferiormente l'insieme ([[Insiemi numerici limitati]])  $Im(f)$ ovvero se esiste $k \in \mathbb{R}$  tale che:
 $$\forall y \in Im(f) \quad k \le y $$
 $$k\le f(x) \quad \forall x \in \mathbb{D}_f$$
 ## Tipi di Funzione
