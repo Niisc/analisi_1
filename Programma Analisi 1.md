@@ -22,3 +22,10 @@
 [[! Insiemi numerici]] (vedere come riordinarlo)
 
 #lezione5
+
+#lezione7 
+[[funzioni]]
+[[Teorema di unicità del limite]]
+[[Teorema del confronto di successioni]]
+[[Teorema di permanenza  del segno]]
+[[Teorema di esistenza del limite per successioni monotone]]
