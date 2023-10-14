@@ -17,8 +17,15 @@
 [[Numerabilità]]
 [[! Insiemi numerici limitati]] (da rivedere le ultime cose)
 
+<<<<<<< HEAD
+#lezione4 #lezione5
+[[! Numeri Complessi]] (disuguaglianza triangolare)
+
+#lezione6 
+[[Funzioni]]
+=======
 #lezione4
 [[! Insiemi numerici illimitati#Numeri complessi]]
 [[! Insiemi numerici]] (vedere come riordinarlo)
+>>>>>>> main
 
-#lezione5

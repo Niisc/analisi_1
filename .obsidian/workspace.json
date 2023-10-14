@@ -4,6 +4,17 @@
     "type": "split",
     "children": [
       {
+<<<<<<< HEAD
+        "id": "51d7f7afb7b07dd9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "48e9b47f137e18cb",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+=======
         "id": "4dadc1e8dbe694d7",
         "type": "tabs",
         "children": [
@@ -16,6 +27,7 @@
                 "file": "..gitignore.icloud",
                 "staged": false
               }
+>>>>>>> main
             }
           }
         ]
@@ -137,7 +149,11 @@
       }
     ],
     "direction": "horizontal",
+<<<<<<< HEAD
+    "width": 200
+=======
     "width": 279.5
+>>>>>>> main
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,9 +162,39 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
+<<<<<<< HEAD
+  "active": "48e9b47f137e18cb",
+  "lastOpenFiles": [
+    "Analisi 1/foto-video/photo1697212805 (1).jpeg",
+    "Analisi 1/foto-video/photo1697212805.jpeg",
+    "Analisi 1/foto-video/photo1697212805 (3).jpeg",
+    "Analisi 1/foto-video/photo1697212805 (2).jpeg",
+    "photo1697212805.jpeg",
+    "Analisi 1/photo1697212805 (3).jpeg",
+    "Analisi 1/photo1697212805 (2).jpeg",
+    "Analisi 1/photo1697212805 (1).jpeg",
+    "Analisi 1/photo1697212805.jpeg",
+    "photo1697212805 (1).jpeg",
+    "Analisi 1/Funzioni.md",
+    "photo1697212805 (3).jpeg",
+    "! Funzioni.pdf",
+    "Programma Analisi 1.md",
+    "Analisi 1/! Numeri Complessi.md",
+    "Analisi 1/! Insiemi numerici limitati.md",
+    "Analisi 1/Teorema fondamentale dell'algebra.md",
+    "Analisi 1/! Numeri Reali.md",
+    "Analisi 1/! Principio di induzione.md",
+    "Analisi 1/Numerabilità.md",
+    "Analisi 1/! Relazione di Equivalenza.md",
+    "Analisi 1/Fattoriale.md",
+    "Analisi 1/! Progressione Geometrica.md",
+    "Corrispondenza Biunivoca.md",
+    "Analisi 1/! Numeri Naturali.md",
+=======
   "active": "2b7937963a0d371c",
   "lastOpenFiles": [
     "Analisi 1/! Principio di induzione.md",
@@ -158,13 +204,19 @@
     "! Numeri Naturali.md",
     "Analisi 1/! Progressione Geometrica.md",
     "Analisi 1/! Relazione di Equivalenza.md",
+>>>>>>> main
     "Analisi 1/! Produttoria.md",
     "Analisi 1/Fattoriale.md",
     "analisi prova/Relazioni.md",
+<<<<<<< HEAD
+    "analisi prova/Insiemi.md",
+    "analisi prova/Principio di induzione.md",
+=======
     "Analisi 1/! Sommatoria.md",
     "analisi prova/Sommatorie.md",
     "! Insiemi numerici.md",
     "Programma Analisi 1.md",
+>>>>>>> main
     "Legenda.md",
     "Analisi 1/! Numeri Reali.md",
     "analisi prova/Principio di induzione.md",
@@ -174,8 +226,6 @@
     "Sommatorie.md",
     "Principio di induzione.md",
     "analisi prova",
-    "Analisi 1/foto-video/c03b8e87-fdce-410b-a026-0b65f1a06f14.jpg",
-    "Analisi 1/foto-video/73e7c6d7-88c3-493e-aa25-ba17c5be0735.jpg",
     "Analisi 1/foto-video",
     "Analisi 1",
     "Relazioni.md",
