@@ -36,7 +36,7 @@
 			- a=$Sup(E)$ se a è maggiorante $\forall \in E \quad x\leq a$
 		- Si dice Estremo Inferiore di E Inf(E) il massimo dei minoranti E:
 			- b=$Inf(E)$ se a è minorante $\forall \in E \quad b \leq x$ 
-	- #### Teorema: Ogni insieme $E \subseteq R$ non vuoto e limitato superiormente(inferiormente) ammette un estremo superiore(inferiore).
+	- #### Teorema: Ogni insieme $E \subseteq R$ non vuoto e limitato superiormente(inferiormente) ammette un estremo superiore(inferiore). #lezione4
 		- ##### Dimostrazione
 			- Sia $E \subseteq R\qquad E\not= \emptyset$ limitato superiormente
 			$\Longrightarrow$ E ammette maggioranti
