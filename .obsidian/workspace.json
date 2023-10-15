@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analisi 1/Combinazioni.md",
+                "file": "Analisi 1/Teorema di unicità del limite.md",
                 "mode": "source",
                 "source": false
               }
@@ -33,8 +33,24 @@
             "id": "a7ce51e0c31c61db",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Analisi 1/Successioni.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4ea25c13dd670aa9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analisi 1/Arrotondamento.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -104,6 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Analisi 1/Successioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,6 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Analisi 1/Successioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +159,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Analisi 1/Successioni.md"
+              }
             }
           },
           {
@@ -172,32 +192,34 @@
   },
   "active": "a7ce51e0c31c61db",
   "lastOpenFiles": [
-    "Analisi 1/Sommatoria.md",
-    "Analisi 1/Funzioni.md",
-    "Analisi 1/Insiemi.md",
-    "Analisi 1/Fattoriale.md",
-    "Analisi 1/Combinazioni.md",
-    "Analisi 1/Binomio di Newton.md",
-    "Analisi 1/Teorema fondamentale dell'algebra.md",
+    "Analisi 1/Arrotondamento.md",
     "Analisi 1/Teorema di unicità del limite.md",
-    "Analisi 1/Teorema di permanenza  del segno.md",
-    "Analisi 1/Teorema di esistenza del limite per successioni monotone.md",
-    "Analisi 1/Teorema del confronto di successioni.md",
+    "LATEX_symbols.pdf",
+    "Analisi 1/foto-video/Pasted image 20231015164239.png",
+    "Analisi 1/foto-video/Pasted image 20231015161026.png",
+    "Analisi 1/foto-video/Pasted image 20231015164458.png",
     "Analisi 1/Successioni.md",
-    "Analisi 1/Relazioni.md",
+    "Analisi 1/Teorema di esistenza del limite per successioni monotone.md",
+    "Analisi 1/Binomio di Newton.md",
+    "Analisi 1/Funzioni.md",
+    "Analisi 1/Combinazioni.md",
+    "Analisi 1/Insiemi numerici limitati.md",
+    "Analisi 1/Sommatoria.md",
+    "Programma Analisi 1.md",
     "Analisi 1/Relazione di Equivalenza.md",
-    "Analisi 1/Progressione Geometrica.md",
-    "Analisi 1/Produttoria.md",
-    "Analisi 1/Principio di induzione.md",
-    "Analisi 1/Numeri reali.md",
-    "Analisi 1/Numeri razionali.md",
     "Analisi 1/Numeri naturali.md",
     "Analisi 1/Numeri interi.md",
     "Analisi 1/Numeri Complessi.md",
     "Analisi 1/Numerabilità.md",
-    "Analisi 1/Insiemi numerici limitati.md",
-    "LATEX_symbols.pdf",
-    "Programma Analisi 1.md",
-    "Legenda.md"
+    "Analisi 1/Insiemi.md",
+    "Analisi 1/Fattoriale.md",
+    "Analisi 1/Teorema fondamentale dell'algebra.md",
+    "Analisi 1/Teorema di permanenza  del segno.md",
+    "Analisi 1/Teorema del confronto di successioni.md",
+    "Analisi 1/Relazioni.md",
+    "Analisi 1/Progressione Geometrica.md",
+    "Analisi 1/Produttoria.md",
+    "Analisi 1/Principio di induzione.md",
+    "Analisi 1/Numeri reali.md"
   ]
 }
