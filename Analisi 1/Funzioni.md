@@ -1,14 +1,15 @@
 #lezione6
-# Definizione 
-Una funzione è una terna (A,B,$f$) dove A,B sono insieme e $f$ è la legge che associa ad **ogni elemento do A uno e un solo elemento di B** 
+### Definizione 
+Una funzione è una terna (A,B,$f$) dove A,B sono insieme e $f$ è la legge che associa ad ogni elemento do A uno e un solo elemento di B
 $A \rightarrow$ Dominio $\qquad B \rightarrow Codominio$
 $$f:A \longrightarrow B$$
 $$a\in A \quad f(a)\in B \ \mathrm{Immagine}$$
 $$a\mapsto f(a) $$
 $$\mathrm{Im}(f)=\{y \in B\  |\  \exists a \in A \ |\ f(a)=y\}\subseteq B \ Insieme \ delle \ immagini$$
-#### Osservazione: $Im(f) \not= \Gamma(f)$ 
-Non confondere Im(f) con $\Gamma (f)$ (grafico sottoinsieme del prodotto cartesiano di A e B):
-$\Gamma(f)=\{(a,b)\in AxB:a \in A\  \wedge\  b=f(a) \}$ 
+#### Osservazione:
+$Im(f) \not= \Gamma(f)$ 
+Non confondere $Im(f)$ con $\Gamma (f)$ (grafico sottoinsieme del prodotto cartesiano di A e B):
+$\Gamma(f)=\{(a,b)\in A\times B:a \in A\  \wedge\  b=f(a) \}$ 
 [[Successioni]]
 $$an= \mathbb{N} \longrightarrow \mathbb{R}$$
 ## Funzioni reali di variabile reale
@@ -16,7 +17,7 @@ $f: A \subseteq \mathbb{R} \longrightarrow \mathbb{R}$
 Esempio:
 $f(x)=\sqrt{ x } \quad A= \mathbb{R}$ Non è una funzione
 $f(x)=\sqrt{ x } \quad A=[0;+\infty)$ **è una funzione**
-$Im(f)=\{y \in \mathbb{R} \ : \exists x\in [0;+\infty):f(x=y)\}=[0;+\infty)$$\Gamma(f)=\{(x,y)\in Ax\mathbb{R}:x \in [0;+\infty)\  :\  y=f(x)\}$ (grafico)
+$Im(f)=\{y \in \mathbb{R} \ : \exists x\in [0;+\infty):f(x=y)\}=[0;+\infty)$$\Gamma(f)=\{(x,y)\in A\times \mathbb{R}:x \in [0;+\infty)\  :\  y=f(x)\}$ (grafico)
 
 ### Dominio naturale
 si definisce dominio naturale l'insieme dei valori reali che rendono la funzione f con significato 
@@ -24,14 +25,14 @@ $\mathbb{D}_{f}=Dominio$
 Esempio: $f(x)=\log(x+1)\qquad \mathbb{D}_{f}=\{x \in \mathbb{R}\ |\ x+1>0\}=(-1;+\infty)$
 Data $f:A \longrightarrow B$ Funzione, $\mathrm{Im}(f) \subseteq B \subseteq \mathbb{R}$
 ## Funzioni limitate
-$f$ si dice **Limitata** se è limitato l'insieme ([[! Insiemi numerici limitati]])  $Im(f)$ ovvero se esiste $M>0$ tale che:
+$f$ si dice **Limitata** se è limitato l'insieme ([[Insiemi numerici limitati]])  $Im(f)$ ovvero se esiste $M>0$ tale che:
 $$\forall y \in Im(f) \quad -M \le y \le M $$	$$f(x)=y \quad -M \le y \le M\quad   \forall x \in \mathbb{D}_f$$
 ### Funzioni limitate superiormente
-$f$ si dice **Limitata superiormente** se è limitato superiormente l'insieme ([[! Insiemi numerici limitati]])  $Im(f)$ ovvero se esiste $k \in \mathbb{R}$  tale che:
+$f$ si dice **Limitata superiormente** se è limitato superiormente l'insieme ([[Insiemi numerici limitati]])  $Im(f)$ ovvero se esiste $k \in \mathbb{R}$  tale che:
 $$\forall y \in Im(f) \quad y \le k $$
 $$f(x)\le k \quad \forall x \in \mathbb{D}_f$$
 ### Funzioni limitate inferiormente
-$f$ si dice **Limitata inferiormente** se è limitato inferiormente l'insieme ([[! Insiemi numerici limitati]])  $Im(f)$ ovvero se esiste $k \in \mathbb{R}$  tale che:
+$f$ si dice **Limitata inferiormente** se è limitato inferiormente l'insieme ([[Insiemi numerici limitati]])  $Im(f)$ ovvero se esiste $k \in \mathbb{R}$  tale che:
 $$\forall y \in Im(f) \quad k \le y $$
 $$k\le f(x) \quad \forall x \in \mathbb{D}_f$$
 ## Tipi di Funzione
