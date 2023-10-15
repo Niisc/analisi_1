@@ -11,7 +11,7 @@ $m$ numero di partenza
 $n$ numero di fine
 $I=\{m, m+1, \cdots, n-1, n\}$
 
-Siano $a_1, a_2, . . . ,a_n$ $n$ numeri reali. La loro somma: $a_1+a_2+...a_n$ si può indicare in forma compatta col simbolo sommatoria:
+Siano $a_1, a_2, . . . ,a_n$ $n$ [[numeri reali]]. La loro somma: $a_1+a_2+...a_n$ si può indicare in forma compatta col simbolo sommatoria:
 ## Proprietà
 ##### 1) Indice muto
 $$\sum_{i\in I}^nai=\sum_{j  \in J}^naj \qquad I=J$$
