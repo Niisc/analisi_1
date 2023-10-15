@@ -69,10 +69,7 @@ $\large a_{n}=e^{n} \quad \lim_{n \to \infty} a_{n}= + \infty$
 Verifico con la definizione che $\lim_{n \to \infty} e^{n}= + \infty$
 $$\forall M > 0 \quad \exists \bar{n} \in \mathbb{N} : \quad \forall n \geq \bar{n} \quad e^{n}\geq M \quad n\geq \ln(M)$$
 Scelgo $\bar{n} = \lfloor \ln(M)\rfloor+1 > \ln(M)$
-
-
-
-
+(Guarda [[Arrotondamento]] per parentesi strane)
 $\forall M >0$ costruisco $\bar{n}$ tale che $\forall n \geq \bar{n}$ si ha $e^{n} \geq M$
 
 ##### Esempio
