@@ -1,50 +1,58 @@
 {
   "main": {
-    "id": "27fcbd0869a60bb0",
+    "id": "1ff013600f3763b0",
     "type": "split",
     "children": [
       {
-<<<<<<< HEAD
-        "id": "51d7f7afb7b07dd9",
+        "id": "72d1901f64dec97a",
         "type": "tabs",
         "children": [
           {
-            "id": "48e9b47f137e18cb",
+            "id": "15fbdb73197db6ca",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-=======
-        "id": "4dadc1e8dbe694d7",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "2b7937963a0d371c",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
+              "type": "pdf",
               "state": {
-                "file": "..gitignore.icloud",
-                "staged": false
+                "file": "LATEX_symbols.pdf"
               }
->>>>>>> main
+            }
+          },
+          {
+            "id": "0a888cbe03222d09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analisi 1/Combinazioni.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a7ce51e0c31c61db",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "4daf7481930005d0",
+    "id": "940002e13e24464d",
     "type": "split",
     "children": [
       {
-        "id": "986f1118c6f52837",
+        "id": "d5df8dfba67ad067",
         "type": "tabs",
         "children": [
           {
-            "id": "08817f81c2baaaec",
+            "id": "6364cd03c489317e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -54,7 +62,7 @@
             }
           },
           {
-            "id": "7d716d13a1bd0f12",
+            "id": "4f933f0057f5582d",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -69,7 +77,7 @@
             }
           },
           {
-            "id": "203f56801d81ed88",
+            "id": "09389b2e76a9d616",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -80,18 +88,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "ece17a87d6e5b3fc",
+    "id": "1fecc335317922d4",
     "type": "split",
     "children": [
       {
-        "id": "14c987fe671ba1bb",
+        "id": "0cfa531d64d5e667",
         "type": "tabs",
         "children": [
           {
-            "id": "7f826898624f92df",
+            "id": "d93b5d1466334973",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -107,7 +115,7 @@
             }
           },
           {
-            "id": "d8959da4cbfa500b",
+            "id": "470e61d957dc686c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -118,7 +126,7 @@
             }
           },
           {
-            "id": "60af8da64c298fa3",
+            "id": "9c34375e856d0a69",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -129,7 +137,7 @@
             }
           },
           {
-            "id": "14b2bb412021a21b",
+            "id": "801e21cc7d9aa85d",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -137,7 +145,7 @@
             }
           },
           {
-            "id": "3253102aeaa2e706",
+            "id": "d436580b1ecc6c69",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -149,11 +157,7 @@
       }
     ],
     "direction": "horizontal",
-<<<<<<< HEAD
-    "width": 200
-=======
-    "width": 279.5
->>>>>>> main
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,70 +170,34 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-<<<<<<< HEAD
-  "active": "48e9b47f137e18cb",
+  "active": "a7ce51e0c31c61db",
   "lastOpenFiles": [
-    "Analisi 1/foto-video/photo1697212805 (1).jpeg",
-    "Analisi 1/foto-video/photo1697212805.jpeg",
-    "Analisi 1/foto-video/photo1697212805 (3).jpeg",
-    "Analisi 1/foto-video/photo1697212805 (2).jpeg",
-    "photo1697212805.jpeg",
-    "Analisi 1/photo1697212805 (3).jpeg",
-    "Analisi 1/photo1697212805 (2).jpeg",
-    "Analisi 1/photo1697212805 (1).jpeg",
-    "Analisi 1/photo1697212805.jpeg",
-    "photo1697212805 (1).jpeg",
+    "Analisi 1/Sommatoria.md",
     "Analisi 1/Funzioni.md",
-    "photo1697212805 (3).jpeg",
-    "! Funzioni.pdf",
-    "Programma Analisi 1.md",
-    "Analisi 1/! Numeri Complessi.md",
-    "Analisi 1/! Insiemi numerici limitati.md",
+    "Analisi 1/Insiemi.md",
+    "Analisi 1/Fattoriale.md",
+    "Analisi 1/Combinazioni.md",
+    "Analisi 1/Binomio di Newton.md",
     "Analisi 1/Teorema fondamentale dell'algebra.md",
-    "Analisi 1/! Numeri Reali.md",
-    "Analisi 1/! Principio di induzione.md",
+    "Analisi 1/Teorema di unicità del limite.md",
+    "Analisi 1/Teorema di permanenza  del segno.md",
+    "Analisi 1/Teorema di esistenza del limite per successioni monotone.md",
+    "Analisi 1/Teorema del confronto di successioni.md",
+    "Analisi 1/Successioni.md",
+    "Analisi 1/Relazioni.md",
+    "Analisi 1/Relazione di Equivalenza.md",
+    "Analisi 1/Progressione Geometrica.md",
+    "Analisi 1/Produttoria.md",
+    "Analisi 1/Principio di induzione.md",
+    "Analisi 1/Numeri reali.md",
+    "Analisi 1/Numeri razionali.md",
+    "Analisi 1/Numeri naturali.md",
+    "Analisi 1/Numeri interi.md",
+    "Analisi 1/Numeri Complessi.md",
     "Analisi 1/Numerabilità.md",
-    "Analisi 1/! Relazione di Equivalenza.md",
-    "Analisi 1/Fattoriale.md",
-    "Analisi 1/! Progressione Geometrica.md",
-    "Corrispondenza Biunivoca.md",
-    "Analisi 1/! Numeri Naturali.md",
-=======
-  "active": "2b7937963a0d371c",
-  "lastOpenFiles": [
-    "Analisi 1/! Principio di induzione.md",
-    "Analisi 1/! Insiemi numerici limitati.md",
-    "! Insiemi numerici illimitati.md",
-    "Analisi 1/Numerabilità.md",
-    "! Numeri Naturali.md",
-    "Analisi 1/! Progressione Geometrica.md",
-    "Analisi 1/! Relazione di Equivalenza.md",
->>>>>>> main
-    "Analisi 1/! Produttoria.md",
-    "Analisi 1/Fattoriale.md",
-    "analisi prova/Relazioni.md",
-<<<<<<< HEAD
-    "analisi prova/Insiemi.md",
-    "analisi prova/Principio di induzione.md",
-=======
-    "Analisi 1/! Sommatoria.md",
-    "analisi prova/Sommatorie.md",
-    "! Insiemi numerici.md",
+    "Analisi 1/Insiemi numerici limitati.md",
+    "LATEX_symbols.pdf",
     "Programma Analisi 1.md",
->>>>>>> main
-    "Legenda.md",
-    "Analisi 1/! Numeri Reali.md",
-    "analisi prova/Principio di induzione.md",
-    "analisi prova/Insiemi.md",
-    "Analisi 1/! Numeri Complessi.md",
-    "Analisi 1/! Numeri Naturali.md",
-    "Sommatorie.md",
-    "Principio di induzione.md",
-    "analisi prova",
-    "Analisi 1/foto-video",
-    "Analisi 1",
-    "Relazioni.md",
-    "Insiemi.md",
-    "insieme.md"
+    "Legenda.md"
   ]
 }
