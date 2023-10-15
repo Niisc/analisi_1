@@ -23,7 +23,3 @@ $$\forall \varepsilon>0 \quad \exists n_{0} \in \mathbb{N} \quad | \quad \forall
 $$-\varepsilon < n-l<\varepsilon$$
 $$l-\varepsilon < n < \varepsilon + l$$
 È un assurdo (why??) 
-#### Osservazione
-$a_{n}=n$ non è limitata superiormente
-$$\forall m $$
-(sto cercando di capire come funziona perche ho gli appunti fatti male)
