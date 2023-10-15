@@ -27,9 +27,8 @@
 #lezione4
 [[Numeri complessi]]
 
-
 #lezione7 
-[[Funzioni]]
+[[Successioni]]
 [[Teorema di unicità del limite]]
 [[Teorema del confronto di successioni]]
 [[Teorema di permanenza  del segno]]

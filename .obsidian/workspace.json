@@ -48,7 +48,6 @@
                 "mode": "source",
                 "source": false
               }
-
             }
           }
         ],
@@ -118,6 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programma Analisi 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,6 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programma Analisi 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +156,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programma Analisi 1.md"
+              }
             }
           },
           {
@@ -215,6 +218,5 @@
     "Analisi 1/Produttoria.md",
     "Analisi 1/Principio di induzione.md",
     "Analisi 1/Numeri reali.md"
-
   ]
 }
