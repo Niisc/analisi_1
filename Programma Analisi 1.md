@@ -19,7 +19,7 @@
 
 
 #lezione4 #lezione5
-[[Numeri Complessi]] (disuguaglianza triangolare)
+[[Numeri Complessi]] 
 
 #lezione6 
 [[Funzioni]]

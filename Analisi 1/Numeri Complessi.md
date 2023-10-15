@@ -67,7 +67,7 @@ $$\large[e^{i\theta}=\cos \theta+i\sin \theta]\qquad Identità\ di\ Eulero$$
 ### Vantaggi e svantaggi:
 - Somma e Differenza $\longleftrightarrow$ Forma algebrica
 - Prodotto e Quoziente $\longleftrightarrow$ Forma Trigonometrica, Forma Esponenziale
-- Potenza $\longleftrightarrow$ [[!Formula di De Moivre]]
+- Potenza $\longleftrightarrow$ [[Formula di De Moivre]]
 #domanda
 
 #### Osservazione: $\theta,\rho, con\  \rho>0 \quad(\rho=0 \iff z=o)$ 

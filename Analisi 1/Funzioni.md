@@ -1,14 +1,15 @@
 #lezione6
-# Definizione 
-Una funzione è una terna (A,B,$f$) dove A,B sono insieme e $f$ è la legge che associa ad **ogni elemento do A uno e un solo elemento di B** 
+### Definizione 
+Una funzione è una terna (A,B,$f$) dove A,B sono insieme e $f$ è la legge che associa ad ogni elemento do A uno e un solo elemento di B
 $A \rightarrow$ Dominio $\qquad B \rightarrow Codominio$
 $$f:A \longrightarrow B$$
 $$a\in A \quad f(a)\in B \ \mathrm{Immagine}$$
 $$a\mapsto f(a) $$
 $$\mathrm{Im}(f)=\{y \in B\  |\  \exists a \in A \ |\ f(a)=y\}\subseteq B \ Insieme \ delle \ immagini$$
-#### Osservazione: $Im(f) \not= \Gamma(f)$ 
-Non confondere Im(f) con $\Gamma (f)$ (grafico sottoinsieme del prodotto cartesiano di A e B):
-$\Gamma(f)=\{(a,b)\in AxB:a \in A\  \wedge\  b=f(a) \}$ 
+#### Osservazione:
+$Im(f) \not= \Gamma(f)$ 
+Non confondere $Im(f)$ con $\Gamma (f)$ (grafico sottoinsieme del prodotto cartesiano di A e B):
+$\Gamma(f)=\{(a,b)\in A\times B:a \in A\  \wedge\  b=f(a) \}$ 
 [[Successioni]]
 $$an= \mathbb{N} \longrightarrow \mathbb{R}$$
 ## Funzioni reali di variabile reale
@@ -16,7 +17,7 @@ $f: A \subseteq \mathbb{R} \longrightarrow \mathbb{R}$
 Esempio:
 $f(x)=\sqrt{ x } \quad A= \mathbb{R}$ Non è una funzione
 $f(x)=\sqrt{ x } \quad A=[0;+\infty)$ **è una funzione**
-$Im(f)=\{y \in \mathbb{R} \ : \exists x\in [0;+\infty):f(x=y)\}=[0;+\infty)$$\Gamma(f)=\{(x,y)\in Ax\mathbb{R}:x \in [0;+\infty)\  :\  y=f(x)\}$ (grafico)
+$Im(f)=\{y \in \mathbb{R} \ : \exists x\in [0;+\infty):f(x=y)\}=[0;+\infty)$$\Gamma(f)=\{(x,y)\in A\times \mathbb{R}:x \in [0;+\infty)\  :\  y=f(x)\}$ (grafico)
 
 ### Dominio naturale
 si definisce dominio naturale l'insieme dei valori reali che rendono la funzione f con significato 

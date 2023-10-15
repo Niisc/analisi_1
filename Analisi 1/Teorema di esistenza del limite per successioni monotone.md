@@ -1,5 +1,5 @@
 #lezione7 
-Data una [[Successioni|succesione]] $a_{a}$ monotona crescente, allora $a_{a}$ ammette limite $l=sup(\{a_{n}\})$ 
+Data una [[Successioni|successione]] $a_{a}$ monotona crescente, allora $a_{a}$ ammette limite $l=sup(\{a_{n}\})$ 
 Tale limite è finito (e quindi $a_{n}$ converge a $l$) se $a_{n}$ aumenta superiormente, altrimenti si pone il limite pari a $+\infty$ (e quindi $a_{n}$ è divergente a $+\infty$ )
 (Analogo enunciato per $a_{n}$ monotona decrescente)
 $l = inf(\{a_{n}\})$
