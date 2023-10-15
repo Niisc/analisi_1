@@ -1,4 +1,4 @@
-Siano date $a_{n}, b_{n}, c_{n}$ successioni  tali che 
+Siano date $a_{n}, b_{n}, c_{n}$ [[successioni]]  tali che 
 $$lim_{n \to \infty}{a_{n}}=l=lim_{n \to \infty}{c_{n}}$$
 se esiste $\bar{n} \in \mathbb{N} \quad | \quad \forall n \geq\bar{n}$  si abbia $a_{n} \leq b_{n} \leq c_{n}$
 allora $b_{n}$ è convergente a $l$ ovvero $lim_{n \to \infty}{b_{n}}=l$

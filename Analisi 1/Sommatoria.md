@@ -33,12 +33,6 @@ $$\sum_{i=1}^na_i=\sum_{i=1}^ka_i+\sum_{i=1+k}^{n}a_i\qquad k<n$$![[73e7c6d7-88c
 $$\sum_{i,j}^na_{i,j}=\sum_{j \in J}^n\biggl(\sum_{i \in I}^{n}a_{i,j}\biggl)$$
 Posso separare le due sommatorie e svolgere prima una e poi l'altra:
 $$\sum_{j \in J}^n\biggl(\sum_{i \in I}^{n}a_{i,j}\biggl)=\sum_{j \in J}^n\biggl(a_0,j+a_1,j...\biggl)$$   
-### Binomio di Newton
-$$(a+b)^n=\sum_{k=0}^n {n \choose k}a^kb^{n-k}$$
-${x \choose k}$  [[Fattoriale#Coefficiente Binomiale]]
 
-##### Esempio: 
-$$(a+b)^8 = \sum_{k=0}^8{8 \choose k}a^kb^{8-k}$$
-$$={8 \choose 0}a^0b^8+{8\choose 1}a^1b^7+....+{8\choose8}a^8b^0$$
-(ricavabili anche con il triangolo di Tartaglia)
-**Dimostrato con il [[Principio di induzione]]**
+
+

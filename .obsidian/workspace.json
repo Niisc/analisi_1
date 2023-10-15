@@ -1,55 +1,49 @@
 {
   "main": {
-    "id": "d69f284ca3e393b4",
+    "id": "1ff013600f3763b0",
     "type": "split",
     "children": [
       {
-        "id": "d2934556b2a48f96",
+        "id": "72d1901f64dec97a",
         "type": "tabs",
         "children": [
           {
-            "id": "aa5200bf01e46931",
+            "id": "9328bcf96ae206d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programma Analisi 1.md",
+                "file": "Analisi 1/Sommatoria.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "cad09794ab4dc0d9",
+            "id": "36374f9435325eaf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "15fbdb73197db6ca",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
               "state": {
-                "file": "Analisi 1/Teorema di unicità del limite.md",
-                "mode": "source",
-                "source": false
+                "file": "LATEX_symbols.pdf"
               }
             }
           },
           {
-            "id": "0fbab9b9766f52a6",
+            "id": "0a888cbe03222d09",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analisi 1/Teorema di unicità del limite.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "defcdd0cc410c4b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Teorema del confronto di successioni.md",
+                "file": "Analisi 1/Successioni.md",
                 "mode": "source",
                 "source": false
               }
@@ -62,15 +56,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "ae29a822a4837255",
+    "id": "940002e13e24464d",
     "type": "split",
     "children": [
       {
-        "id": "cee2c8b1c0b859c7",
+        "id": "d5df8dfba67ad067",
         "type": "tabs",
         "children": [
           {
-            "id": "f06e5cb418b63586",
+            "id": "6364cd03c489317e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -80,7 +74,7 @@
             }
           },
           {
-            "id": "4fc3c397a52970a2",
+            "id": "4f933f0057f5582d",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -95,7 +89,7 @@
             }
           },
           {
-            "id": "fe021ca7440003a3",
+            "id": "09389b2e76a9d616",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -109,20 +103,20 @@
     "width": 300
   },
   "right": {
-    "id": "070f74954a6c2222",
+    "id": "1fecc335317922d4",
     "type": "split",
     "children": [
       {
-        "id": "4a3cdca4aec31204",
+        "id": "0cfa531d64d5e667",
         "type": "tabs",
         "children": [
           {
-            "id": "3f9fe41dff5ca24e",
+            "id": "d93b5d1466334973",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Teorema del confronto di successioni.md",
+                "file": "Analisi 1/Successioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,19 +128,19 @@
             }
           },
           {
-            "id": "be074ffdb955d588",
+            "id": "470e61d957dc686c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Teorema del confronto di successioni.md",
+                "file": "Analisi 1/Successioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "bfd499698e9f0ef4",
+            "id": "9c34375e856d0a69",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -157,22 +151,29 @@
             }
           },
           {
-            "id": "04d51a9e3f31a72f",
+            "id": "801e21cc7d9aa85d",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Teorema del confronto di successioni.md"
+                "file": "Analisi 1/Successioni.md"
               }
+            }
+          },
+          {
+            "id": "d436580b1ecc6c69",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,80 +184,28 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
-      "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "floating": {
-    "id": "a44184b6497e44e8",
-    "type": "floating",
-    "children": [
-      {
-        "id": "a776519f9bb217cd",
-        "type": "window",
-        "children": [
-          {
-            "id": "b18ed710642685ed",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "649bc68ae82cc942",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "Excalidraw/Teorema di esistenza del limite per successioni monotone 2023-10-14 17.32.58.excalidraw.md"
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 0,
-        "y": 0,
-        "width": 1440,
-        "height": 900,
-        "maximize": false,
-        "zoom": 0.5
-      }
-    ]
-  },
-  "active": "defcdd0cc410c4b1",
+  "active": "0a888cbe03222d09",
   "lastOpenFiles": [
-    "Analisi 1/Teorema di unicità del limite.md",
-    "Teorema del confronto di successioni.md",
-    "Analisi 1/Teorema di permanenza  del segno.md",
+    "Analisi 1/Teorema del confronto di successioni.md",
     "Analisi 1/Teorema di esistenza del limite per successioni monotone.md",
+    "Analisi 1/Insiemi numerici limitati.md",
+    "Analisi 1/Combinazioni.md",
+    "Analisi 1/Binomio di Newton.md",
+    "Analisi 1/Numerabilità.md",
+    "Analisi 1/Numeri Complessi.md",
+    "Analisi 1/Numeri razionali.md",
+    "Analisi 1/Numeri naturali.md",
+    "Analisi 1/Numeri interi.md",
     "Programma Analisi 1.md",
-    "Excalidraw/Drawing 2023-10-14 17.23.45.excalidraw.md",
-    "Excalidraw/Teorema di esistenza del limite per successioni monotone 2023-10-14 17.32.58.excalidraw.md",
     "Legenda.md",
-    "Analisi 1/! Numeri Complessi.md",
-    "my-obsidian-library.excalidrawlib",
     "Analisi 1/Sommatoria.md",
-    "analisi prova/Insiemi.md",
-    "analisi prova/Relazioni.md",
-    "analisi prova/Sommatorie.md",
-    "Analisi 1/! Principio di induzione.md",
-    "Analisi 1/! Produttoria.md",
-    "Analisi 1/! Numeri Reali.md",
-    "Analisi 1/! Insiemi numerici limitati.md",
-    "Excalidraw",
-    "Analisi 1/! Sommatoria.md",
-    "Analisi 1/Teorema unicità del limite.md",
-    "Analisi 1/Teorema fondamentale dell'algebra.md",
+    "Analisi 1/Fattoriale.md",
+    "Analisi 1/Successioni.md",
+    "Analisi 1/Teorema di permanenza  del segno.md",
+    "LATEX_symbols.pdf",
     "Analisi 1/Funzioni.md",
-    "Analisi 1/foto-video/cd805084-fb73-44fd-909c-a2c1f2b2d18e.jpg",
-    "Analisi 1/foto-video/photo1697212805 (3).jpeg",
-    "Analisi 1/foto-video/photo1697212805 (2).jpeg",
-    "Analisi 1/foto-video/photo1697212805 (1).jpeg",
-    "Analisi 1/foto-video/photo1697212805.jpeg",
-    "Analisi 1/foto-video/photo1696785653.jpeg",
-    "Analisi 1/foto-video/msg1048603746-11738.jpg",
-    "Analisi 1/foto-video/e8486692-819b-49eb-a8d6-687eb67fc34b.jpg",
-    "Analisi 1/foto-video/c03b8e87-fdce-410b-a026-0b65f1a06f14.jpg",
-    "Analisi 1/foto-video/73e7c6d7-88c3-493e-aa25-ba17c5be0735.jpg",
-    "! Insiemi numerici illimitati.md"
+    "che valgono.md"
   ]
 }

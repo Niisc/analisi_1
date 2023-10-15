@@ -4,6 +4,8 @@ $$\mathbb{N}=\{0;1;2;3;4;\ldots\}$$
 0 è un numero naturale
 1 è l'elemento "fondante"
 
+Sono contenuti nei [[Numeri interi]] [[Numeri razionali]], [[Numeri reali]], [[Numeri Complessi]].
+
 Si possono costruire i numeri naturali come una [[Progressione Geometrica]]:
 Con (ragione) q=1: $$0,1,\qquad 2= 1\sum_{k=0}^11^k,\qquad 3= 1\sum_{k=0}^21^k, \ldots$$
 ### Operazioni interne definite:

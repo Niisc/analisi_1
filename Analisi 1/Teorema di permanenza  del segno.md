@@ -1,4 +1,4 @@
-Successione convergente a $l \in \mathbb{R}$. Se $a_{n}\geq0 \quad \forall n \in \mathbb{N}$ allora $l\geq0$
+[[Successioni|Successione]] convergente a $l \in \mathbb{R}$. Se $a_{n}\geq0 \quad \forall n \in \mathbb{N}$ allora $l\geq0$
 ### Dimostrazione
 $a_{n}\geq 0 \quad \forall n \in \mathbb{N}$
 
