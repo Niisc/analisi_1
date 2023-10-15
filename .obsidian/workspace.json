@@ -39,6 +39,7 @@
           },
           {
             "id": "4ea25c13dd670aa9",
+
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -47,6 +48,7 @@
                 "mode": "source",
                 "source": false
               }
+
             }
           }
         ],
@@ -213,5 +215,6 @@
     "Analisi 1/Produttoria.md",
     "Analisi 1/Principio di induzione.md",
     "Analisi 1/Numeri reali.md"
+
   ]
 }
