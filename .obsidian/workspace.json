@@ -28,9 +28,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "22cd52870a166dff",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "staged": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -96,7 +107,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programma Analisi 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +123,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programma Analisi 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,9 +144,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programma Analisi 1.md"
-              }
+              "state": {}
             }
           },
           {
@@ -149,7 +156,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -166,10 +173,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0a888cbe03222d09",
+  "active": "22cd52870a166dff",
   "lastOpenFiles": [
-    "Analisi 1/Serie.md",
+    "conflict-files-obsidian-git.md",
     "Programma Analisi 1.md",
+    "Analisi 1/Serie.md",
     "Analisi 1/Numeri Complessi.md",
     "Analisi 1/Numeri reali.md",
     "Analisi 1/Teorema di unicità del limite.md",
@@ -193,7 +201,6 @@
     "Analisi 1/Numeri razionali.md",
     "Analisi 1/Numeri interi.md",
     "Analisi 1/Numerabilità.md",
-    "Analisi 1/Insiemi.md",
     "LATEX_symbols.pdf",
     "Analisi 1/foto-video/Pasted image 20231015164239.png",
     "Analisi 1/foto-video/Pasted image 20231015161026.png",
