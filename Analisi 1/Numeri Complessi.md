@@ -4,22 +4,21 @@ I numeri complessi costituiscono un insieme che estende l'insieme dei [[numeri r
 
 Contengono i [[Numeri naturali]] e [[Numeri interi]] sono contenuti nei [[Numeri reali]], [[Numeri Complessi]].
 ### Campo Complesso
-Estendendo in modo che ogni equazione polinomiale di grado **n** abbia esattamente n soluzioni (contate con la loro molteplicità):
+Estendendo in modo che ogni equazione polinomiale di grado $n$ abbia esattamente $n$ soluzioni (contate con la loro molteplicità):
 Sia $\mathbb{R} \times \mathbb{R}$ l'insieme delle coppie ordinate di numeri reali $(a,b)\in \mathbb{R} \times \mathbb{R}$. Definisco le operazioni di **Somma** e **Prodotto** $\forall (a,b),(c,d)\in \mathbb{R} \times \mathbb{R}$ :
 $$+:\quad(a,b)+(c,d)\ =\ (a+c,b+b)$$$$\times:\quad(a,b)\times(c,d)\ =\ (ac-bd,ad+bc)$$
-##### Esempio:
-- $\left(1;-5\right)+\left( \sqrt2;{\frac{1}{2}} \right)=\left( 1+\sqrt{2};-5+{\frac{1}{2}} \right)=\left( 1+\sqrt{ 2 };{-\frac{9}{2}} \right)$
-- $\left(1;-5\right)\times\left( \sqrt{2};{\frac{1}{2}} \right)=\left(\sqrt{2}+{\frac{5}{2}};{\frac{1}{2}}-5\sqrt{ 2 } \right)$ 
-##### Osservazioni
-1) $\forall(a,b) \in \mathbb{R} \times \mathbb{R}\qquad (a,b)+(0,0)=(0,0)+(a,b)=(a,b)$ 
-$$(0,0)\ Elemento\ Neutro\ per \ la\ somma$$
-2) $\forall(a,b) \in \mathbb{R} \times \mathbb{R}\qquad (a,b)*(1,0)=(1,0)*(a,b)=(a,b)$ 
-$$(1,0)\ Elemento\ Neutro\ per \ il\ prodotto$$
-3) La somma e il prodotto godono della proprietà commutativa e associativa
+>[!Example] Esempio
+$\left(1;-5\right)+\left( \sqrt2;{\frac{1}{2}} \right)=\left( 1+\sqrt{2};-5+{\frac{1}{2}} \right)=\left( 1+\sqrt{ 2 };{-\frac{9}{2}} \right)$ $\left(1;-5\right)\times\left( \sqrt{2};{\frac{1}{2}} \right)=\left(\sqrt{2}+{\frac{5}{2}};{\frac{1}{2}}-5\sqrt{ 2 } \right)$ 
 
-4) $\forall(a,b) \in \mathbb{R} \times \mathbb{R}$ esiste $(-a;-b)$ tale che:  
+>[!info] Osservazione
+>1) $\forall(a,b) \in \mathbb{R} \times \mathbb{R}\qquad (a,b)+(0,0)=(0,0)+(a,b)=(a,b)$ 
+$$(0,0)\ Elemento\ Neutro\ per \ la\ somma$$
+>2) $\forall(a,b) \in \mathbb{R} \times \mathbb{R}\qquad (a,b)*(1,0)=(1,0)*(a,b)=(a,b)$ 
+$$(1,0)\ Elemento\ Neutro\ per \ il\ prodotto$$
+>3) La somma e il prodotto godono della proprietà commutativa e associativa
+>4) $\forall(a,b) \in \mathbb{R} \times \mathbb{R}$ esiste $(-a;-b)$ tale che:  
 $$(a,b)+(-a,-b)=(-a,-b)+(a,b)=(0,0)\rightarrow (-a,-b)\ elemento\ inverso\ della\  somma$$
-5) $\forall(a,b) \in \mathbb{R} \times \mathbb{R}$ \ $\{(0,0)\}$:
+>5) $\forall(a,b) \in \mathbb{R} \times \mathbb{R}$ \ $\{(0,0)\}$:
 $$\huge{\exists}!\normalsize\left( \frac{a}{a^2+b^2};\frac{-b}{a^2+b^2} \right)\quad\huge|\normalsize\quad(a,b)*\left( \frac{a}{a^2+b^2};\frac{-b}{a^2+b^2} \right)=(1,0)$$ $\left( \frac{a}{a^2+b^2};\frac{-b}{a^2+b^2} \right)$ elemento inverso per il prodotto
 $$\huge \mathbb{R} \times \mathbb{R}\longrightarrow \mathbb{C}\quad Campo \ Complesso$$
 
@@ -72,7 +71,8 @@ $$\large[e^{i\theta}=\cos \theta+i\sin \theta]\qquad Identità\ di\ Eulero$$
 
 #### Osservazione: $\theta,\rho, con\  \rho>0 \quad(\rho=0 \iff z=o)$ 
 Definiscono un determinato punto del piano, mentre un punto nel piano definisce univocamente la coordinata $\rho$, l'angolo $\theta$ non è unico: $\theta+2k\pi$ e $\theta$ definiscono lo stesso angolo
-#### Osservazione: $\rho^{2}= a^{2}+b^{2}=|z|^{2}\longrightarrow|z|=\rho=\sqrt{ a^{2}+b^{2}}\geq 0$
+>[!info] Osservazione
+$$\rho^{2}= a^{2}+b^{2}=|z|^{2}\longrightarrow|z|=\rho=\sqrt{ a^{2}+b^{2}}\geq 0$$
 
 Per determinare $\theta$ :$$\begin{cases}
 \rho \cos \theta=a \\
@@ -103,10 +103,6 @@ $(2\pi-Arg(z)=-\ \theta)$
 $\huge\frac{\overline z}{z}=$$Re\biggl(\huge\frac{{a^{2}-b^{2}}}{{a^{2}+b^{2}}}$$\biggl)-\ i*Im\biggl( \huge\frac{2ab}{a^{2}+b^{2}}$$\biggl)$ 
 $\huge\frac{\overline z}{z}\times\frac{\overline z}{\overline z}$=$\huge\frac{\overline z^{2}}{|z|^{2}}$
 $\huge\frac{\overline z}{z}\times\frac{z}{z}$=$\huge\frac{z^{2}}{|z|^{2}}$
-##### 5) Disuguaglianza Triangolare
-$$\forall z,w \in \mathbb{C}\qquad |z+w|\leq|z|+|w|$$
-##### Dimostrazione
-#finire 
 #### Radice di un numero complesso
 Si dire radice n-esima di un numero complesso $w \in \mathbb{C}$ quel numero $z \in \mathbb{C}$ tale che: $z^{n}=w$
 ##### Teorema: Numero radici complesse
@@ -114,9 +110,9 @@ Sia $w \in \mathbb{C},w \not= 0$ e sia $n \in \mathbb{N}-\{0\}$: $$w=\gamma(\cos
 \rho _k = \sqrt[n]{\gamma} \\
 \theta _k= \frac{\alpha+2k\pi}{n}\quad k=0,1,..,n-1
 \end{matrix}$$
-###### Dimostrazione
+##### Dimostrazione
 #finire 
 ###### Osservazione le radici $z_{k}$ n-esime si dispongono in una circonferenza di raggio $\rho _k= \sqrt[n]{\gamma}$ come vertici di un poligono regolare iscritto.
-$\theta _k-\theta_{k-1}=\frac{\alpha+2k\pi}{n}-\frac{\alpha+2(k-1)\pi}{n}=\huge \frac{2\pi}{b}\quad costante$
+$\theta _k-\theta_{k-1}=\frac{\alpha+2k\pi}{n}-\frac{\alpha+2(k-1)\pi}{n}=\huge \frac{2\pi}{b}\quad$ costante
 ### Teorema fondamentale dell'algebra
 ![[Teorema fondamentale dell'algebra]]

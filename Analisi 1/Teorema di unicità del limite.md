@@ -16,7 +16,7 @@ Ma questo è un assurdo perché se $l-m>0$ prendo come $\varepsilon=\frac{l-m}{8
 $$l-m\leq 2 \times\frac{l-m}{8}=\frac{l-m}{4}$$
 Che è assurdo (why??)
 
-### Esempio
+>[!Example] Esempio
 $a_{n}$ non è convergente
 Suppongo che esista $l\in \mathbb{R}$ $\lim_{n \to \infty}{a_{n}}=l$
 $$\forall \varepsilon>0 \quad \exists n_{0} \in \mathbb{N} \quad | \quad \forall n \geq n_{0} \quad |n-l| < \varepsilon$$

@@ -6,15 +6,16 @@ $$f:A \longrightarrow B$$
 $$a\in A \quad f(a)\in B \ \mathrm{Immagine}$$
 $$a\mapsto f(a) $$
 $$\mathrm{Im}(f)=\{y \in B\  |\  \exists a \in A \ |\ f(a)=y\}\subseteq B \ Insieme \ delle \ immagini$$
-#### Osservazione:
+>[!info] Osservazione
 $Im(f) \not= \Gamma(f)$ 
 Non confondere $Im(f)$ con $\Gamma (f)$ (grafico sottoinsieme del prodotto cartesiano di A e B):
 $\Gamma(f)=\{(a,b)\in A\times B:a \in A\  \wedge\  b=f(a) \}$ 
 [[Successioni]]
-$$an= \mathbb{N} \longrightarrow \mathbb{R}$$
-## Funzioni reali di variabile reale
-$f: A \subseteq \mathbb{R} \longrightarrow \mathbb{R}$
-Esempio:
+$$a_n= \mathbb{N} \longrightarrow \mathbb{R}$$
+
+### Funzioni reali di variabile reale
+$$f: A \subseteq \mathbb{R} \longrightarrow \mathbb{R}$$
+>[!example] Esempio
 $f(x)=\sqrt{ x } \quad A= \mathbb{R}$ Non è una funzione
 $f(x)=\sqrt{ x } \quad A=[0;+\infty)$ **è una funzione**
 $Im(f)=\{y \in \mathbb{R} \ : \exists x\in [0;+\infty):f(x=y)\}=[0;+\infty)$$\Gamma(f)=\{(x,y)\in A\times \mathbb{R}:x \in [0;+\infty)\  :\  y=f(x)\}$ (grafico)
@@ -48,20 +49,24 @@ $f$ si dice Strettamente Decrescente se è decrescente e $f(x_2)<f(x_1)$
 
 ### Suriettiva
 Sia $f:A \longrightarrow B$ 
-$f$ si dice Suriettiva se $\forall y \in B \quad \exists a \in A : f(a)=y$ ovvero $Im(f)=$
-#### Osservazioni
-1) Data $f:A\longrightarrow B$ funzione, se considero la restrizione $\overline{f}:A\longrightarrow Im(f)$, $\overline{f}$ è suriettiva
-2) Se $f$ è suriettiva, per ogni elemento del codominio esiste almeno un elemento del dominio che gli corrisponde mediante $f$
-3) Se $f: A \subseteq \mathbb{R} \rightarrow B \subseteq \mathbb{R}$ $f$ suriettiva se considerando il fascio di rette $y=k \quad k \in B$, ogni retta interseca il grafico di $f$ in almeno un punto.
+$f$ si dice Suriettiva se $\forall y \in B \quad \exists a \in A : f(a)=y$ ovvero $Im(f)=B$
+
+>[!info] Osservazioni
+>1) Data $f:A\longrightarrow B$ funzione, se considero la restrizione $\overline{f}:A\longrightarrow Im(f)$, $\overline{f}$ è suriettiva
+>2) Se $f$ è suriettiva, per ogni elemento del codominio esiste almeno un elemento del dominio che gli corrisponde mediante $f$
+>3) Se $f: A \subseteq \mathbb{R} \rightarrow B \subseteq \mathbb{R}$ $f$ suriettiva se considerando il fascio di rette $y=k \quad k \in B$, ogni retta interseca il grafico di $f$ in almeno un punto.
+
 ### Iniettiva
 Sia $f:A \longrightarrow B$ 
 $f$ si dice Iniettiva se $\forall x_1,x_2 \in A \quad  f(x_1)=f(x_2) \Longrightarrow x_1=x_2$
-#### Osservazioni
-1) Per ogni elemento del codominio esiste al massimo un elemento del dominio che gli corrisponde
-2) se $f:A \subseteq \mathbb{R} \longrightarrow B \subseteq \mathbb{R}$ $f$ è iniettiva se considerando il fascio di rette $y=k\quad k\in B$, ogni retta interseca il grafico di $f$ in al massimo un punto.
+>[!info] Osservazioni
+>1) Per ogni elemento del codominio esiste al massimo un elemento del dominio che gli corrisponde
+>2) se $f:A \subseteq \mathbb{R} \longrightarrow B \subseteq \mathbb{R}$ $f$ è iniettiva se considerando il fascio di rette $y=k\quad k\in B$, ogni retta interseca il grafico di $f$ in al massimo un punto.
 ### Biunivoca / Biettiva 
 $f$ si dice Biunivoca o Biettiva se $f$ è iniettiva e suriettiva su A e B
-#### Osservazione: Sia $f:A \subseteq \mathbb{R}\longrightarrow \mathbb{R}$ Iniettiva
+
+>[!info] Osservazione
+Sia $f:A \subseteq \mathbb{R}\longrightarrow \mathbb{R}$ Iniettiva
 $$\forall y \in Im(f)\quad \exists ! \ x \in A : f(x)=y$$
 
 #finire 
@@ -76,16 +81,20 @@ Definita da $\forall y \in Im(f) \quad f^{-1}(y)=x \iff f(x)=y$
 - Il grafico di $f^{-1}$ si ottiene dal grafico di $f$ operando  con una simmetria rispetto alla bisettrice del I- III quadrante
 ### Monotona
 Sia $f: A \subseteq \mathbb{R} \longrightarrow \mathbb{R}$ una funzione, si dice monotona in $I \subseteq A$ se $f$ è crescente (o decrescente) in $I$
-#### Osservazione 
+>[!info] Osservazione
 Sia $f:A \subseteq \mathbb{R} \longrightarrow \mathbb{R}$ funzione monotona, allora è iniettiva, quindi sì piò definire $f^{-1}: Im(f)\longrightarrow A$ ![[photo1697212805.jpeg]]
 ### Pari
-Sì dice che $f:A \subseteq \mathbb{R} \longrightarrow \mathbb{R}$ è pari se A è un dominio simmetrico rispetto all'origine e se $\forall x \in A$
-$f(x)=-f(x)$
-#### Osservazione: se f è pari, $\Gamma(f)$$ è simmetrico all'asse y
+Sì dice che $f:A \subseteq \mathbb{R} \longrightarrow \mathbb{R}$ è pari se $A$ $\forall x \in A$
+$f(-x)=f(x)$
+>[!info] Osservazione
+Se $f$ è pari, $\Gamma(f)$ è simmetrico all'asse $y$
+
 ### Dispari
-Sì dice che $f:A \subseteq \mathbb{R} \longrightarrow \mathbb{R}$ è dispari se A è un dominio simmetrico rispetto all'origine e se $\forall x \in A$
-$f(x)=-f(-x)$
-#### Osservazione: se f è dispari, $\Gamma(f)$$ è simmetrico all'origine 
+Sì dice che $f:A \subseteq \mathbb{R} \longrightarrow \mathbb{R}$ è dispari se $\forall x \in A$
+$f(-x)=-f(x)$
+
+>[!info] Osservazione
+Se $f$ è dispari, $\Gamma(f)$ è simmetrico all'origine 
 ### Periodica
 $f$  sì dice   periodica di periodo T se $\forall x \in \mathbb{D}_{f} \quad x+T\in \mathbb{D}_{f} \quad f(x)=f(x+T)$
 

@@ -34,3 +34,15 @@
 [[Teorema del confronto di successioni]]
 [[Teorema di permanenza  del segno]]
 [[Teorema di esistenza del limite per successioni monotone]]
+
+#lezione8
+[[Limiti]]
+
+#lezione9
+[[Successioni]]
+Numero e??
+#lezione10
+[[Successioni]]
+(Come dividere tra piu file?)
+#lezione11
+[[Serie]]

@@ -9,7 +9,7 @@ $A$ è un insieme; $a,b,c,d$ sono elementi di $A$;
  * $A = B$, $A$ e $B$ hanno gli stessi elementi
  * $A \subseteq B$, $A$ è contenuto in $B$, $A$ è sottoinsieme di $B$
 
-### Ossia:
+>[!info] Osservazione
 $A = B$ se e solo se $A \subseteq B$ e $B \subseteq A$ 
 
 Operazioni tra insiemi $A, B \subseteq C$

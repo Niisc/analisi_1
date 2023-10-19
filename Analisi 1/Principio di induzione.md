@@ -9,7 +9,8 @@ La dimostrazione per induzione consiste nei due passi seguenti:
 1) Si dimostra che $p(n)$ è vera per $n=n_{0}$ (primo passo induzione)
 2) Si dimostra che, se $n$ è un generico numero naturale $\geq n_{0}$, dal fatto che $p(n)$ sia vera segue che $p(n+1)$ è vera.
 
-non importa l'indice con cui si inizia il principio di induzione ($n_{0}$)
+>[!info]
+Non importa l'indice con cui si inizia il principio di induzione ($n_{0}$). Generalmente è consigliato provare il numero minimo consentito nella condizione d'esistenza del problema.
 
 ### Formulazione nel Linguaggio degli insiemi
 

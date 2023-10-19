@@ -45,6 +45,7 @@ b=$Inf(E)$ se a è minorante $\forall \in E \quad b \leq x$
 ##### Dimostrazione
 Sia $E \subseteq R\qquad E\not= \emptyset$ limitato superiormente
 $\Longrightarrow$ $E$ ammette maggioranti
-chiamo $M$ l'insieme dei maggioranti per $E$: $$M=\{x \in R\ |\ \forall e \in E \quad e \leq x\}$$ Osservo $M \not=$ 0 (esiste almeno un maggiorante)
+chiamo $M$ l'insieme dei maggioranti per $E$: $$M=\{x \in R\ |\ \forall e \in E \quad e \leq x\}$$
+Osservo $M \not=$ 0 (esiste almeno un maggiorante)
 $M$ è limitato inferiormente $$e\in E \quad \forall x \in M\quad e\leq x$$
 considero l'insieme P=

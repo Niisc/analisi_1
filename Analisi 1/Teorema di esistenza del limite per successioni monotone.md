@@ -25,5 +25,6 @@ riscriviamo $\forall \varepsilon > 0 \quad \exists n_{0} \in \mathbb{N} \quad|\q
 
 Ovvero $lim_{n \to \infty} a_{n}=sup(\{a_{n}\})$ cioè $a_{n}$ converge a $sup(\{a_{n}\})$ 
 
-### Osservazione
+
+> [!info] Osservazione
 Non basta che una successione sia limitata per la convergenza; ad esempio: $a_{n}=(-1)^{n}$ è limitata ma irregolare
