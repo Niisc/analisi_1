@@ -7,7 +7,7 @@ $\huge{n \choose k}$  [[Combinazioni]]
 > [!example] Esempio
 >$$(a+b)^8 = \sum_{k=0}^8{8 \choose k}a^kb^{8-k}$$
 >$$={8 \choose 0}a^0b^8+{8\choose 1}a^1b^7+....+{8\choose8}a^8b^0$$
->(ricavabili anche con il triangolo di Tartaglia)
+>(ricavabili anche con il [[Triangolo di Tartaglia]])
 
 Dimostrato con il [[Principio di induzione]]
 

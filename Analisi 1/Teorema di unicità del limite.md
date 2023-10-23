@@ -13,7 +13,7 @@ Poiché $l\neq m$ calcolo $|l-m|$ :
 $$|l-m|=|l-a_{n}+a_{n}-m|=|(l-a_{n})+(a_{n}-m)|\leq |l-a_{n}|+|a_{n}-m|<2 \varepsilon$$
 Quindi $\forall \varepsilon>0 \quad \forall n \geq max\{n_{0},n_{1}\} \quad |l-m|<2\varepsilon$ 
 Ma questo è un assurdo perché se $l-m>0$ prendo come $\varepsilon=\frac{l-m}{8}$ e allora avrei:
-$$l-m\leq 2 \times\frac{l-m}{8}=\frac{l-m}{4}$$
+$$l-m\leq 2 \cdot\frac{l-m}{8}=\frac{l-m}{4}$$
 Che è assurdo (why??)
 
 >[!Example] Esempio

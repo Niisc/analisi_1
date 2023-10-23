@@ -36,7 +36,7 @@
 [[Teorema di esistenza del limite per successioni monotone]]
 
 #lezione8
-[[Limiti]]
+[[Algebra dei limiti]]
 
 #lezione9
 [[Successioni]]
