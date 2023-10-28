@@ -40,9 +40,13 @@
 
 #lezione9
 [[Successioni]]
-Numero e??
+
+
 #lezione10
-[[Successioni]]
-(Come dividere tra piu file?)
+[[Limite notevole]]
+
 #lezione11
+[[Serie]]
+
+#lezione12
 [[Serie]]

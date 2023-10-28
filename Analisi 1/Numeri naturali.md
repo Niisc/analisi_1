@@ -23,3 +23,13 @@ $$\forall m,n_1,n_2 \in N \qquad m\cdot (n_{1}\cdot n_2)=mn_1+mn_2$$
 
 **Assioma**: Ogni numero naturale $n\in N$ ha in $N$ il suo successore
 il primo numero naturale maggiore di 1
+
+
+### Principio del minimo intero
+
+##### Definizione
+Ogni sottoinsieme non vuoto di $\mathbb{N}$ ha minimo (= elemento minore di tutti gli altri)
+
+>[!attention] Attenzione
+>Questo non vale per $\mathbb{Z}$, $\mathbb{Q}$, $\mathbb{R}$ o $\mathbb{C}$ perchè esiste almeno un sottoinsieme non vuoto in questi insiemi che non ha minimo. Come:
+> $$E=\{x \in \mathbb{Z}: \quad x<5\}$$

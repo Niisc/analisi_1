@@ -45,7 +45,7 @@ $$
 $$
 3)
 $$
-\lim_{ n \to \infty } \frac{a_{n}}{b_{n}} = 0 \quad se  a_{n} \neq 0 \quad l\neq 0
+\lim_{ n \to \infty } \frac{a_{n}}{b_{n}} = 0 \quad se \quad  a_{n} \neq 0 \quad l\neq 0
 $$
 4)
 $$
@@ -127,6 +127,7 @@ Scelgo come $\bar{n} = max\{n_{0},n_{1}\}$ cosi che $\forall M\gg 0 \quad \exist
 $$
 a_{n}+b_{n} > M+M=2M>M
 $$
+
 >[!info] Osservazione
 >$$\lim_{ n \to \infty } (a_{n}-b_{n})=?$$
 > Forma di indeterminazione $[\infty - \infty]$
@@ -149,6 +150,6 @@ $$
 > $$\lim_{ n \to \infty } \frac{\sqrt{ n }+n^{8}-n^{2}}{7n^{3}-3n^{7}+n^{10}}$$
 > $$a_{n} = \sqrt{ n } + n^{8} -n^{2}$$
 > $$b_{n}=7n^{3}-3n^{7}+n^{10}$$
-> $$$$
+> (da finire)
 
 

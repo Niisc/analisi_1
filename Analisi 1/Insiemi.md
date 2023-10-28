@@ -9,6 +9,7 @@ $A$ è un insieme; $a,b,c,d$ sono elementi di $A$;
  * $A = B$, $A$ e $B$ hanno gli stessi elementi
  * $A \subseteq B$, $A$ è contenuto in $B$, $A$ è sottoinsieme di $B$
 
+
 >[!info] Osservazione
 $A = B$ se e solo se $A \subseteq B$ e $B \subseteq A$ 
 
@@ -19,5 +20,11 @@ Operazioni tra insiemi $A, B \subseteq C$
 + Complementare $Ā= A^{C} = \{ x \in U | x \notin A\}$
 
 ### Relazioni
-Ci sono le [[Relazioni#Relazione d'ordine|relazioni d'ordine]] e le [[Relazioni#Relazione d'equivalenza|relazione d'equivalenza]]
+Ci sono le [[Analisi 1/Relazioni#Relazione d'ordine|relazioni d'ordine]] e le [[Analisi 1/Relazioni#Relazione d'equivalenza|relazione d'equivalenza]].
 
+### Cardinalità
+La cardinalità di un insieme è la quantità di elementi al suo interno.
+
+Dato un insieme $A=\{1,2,3\}$
+
+$|A|$ è detta cardinalità di $A$, In questo caso $A$ ha 3 elementi.

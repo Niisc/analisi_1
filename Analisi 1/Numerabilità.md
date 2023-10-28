@@ -3,15 +3,15 @@ $$\mathbb{N}\subseteq \mathbb{Z} \subseteq \mathbb{Q} \subseteq \mathbb{R} \quad
 ### Corrispondenza Biunivoca
 
 Stabilire quale degli insiemi sia il più "*numeroso*":
-Due insiemi A,B si dicono di *uguale cardinalità* (traducibile in numerosità) se possono essere messi in corrispondenza biunivoca tra loro, cioè se esiste una legge che associa ad ogni elemento di A uno e uno solo di B e viceversa.
+Due insiemi $A,B$ si dicono di *uguale [[Insiemi#Cardinalità|cardinalità]]* se possono essere messi in corrispondenza biunivoca tra loro, cioè se esiste una legge che associa ad ogni elemento di A uno e uno solo di B e viceversa.
 
->[!info]
+>[!info] Osservazione
 >Confronto, non conto
 
 Identifichiamo l'idea di uguale numerosità con una *corrispondenza biunivoca*:
- $N=\{0,1,2,3,...\}\quad N_2=\{2,3,4,5...\}$
+$\mathbb{N}=\{0,1,2,3,...\}\quad \mathbb{N}_2=\{2,3,4,5...\}$
 corrispondenza biunivoca $n\rightarrow n+2$ 
-$N=\{0,1,2,3,...\}\quad Z=\{...-2,-1,0,1;2...\}$
+$\mathbb{N}=\{0,1,2,3,...\}\quad \mathbb{Z}=\{...-2,-1,0,1;2...\}$
 corrispondenza biunivoca $2n\rightarrow -n$ (ai numeri pari associo i negativi), $2n-1\rightarrow n$ (ai numeri dispari associo i numeri positivi)
 ### Esiste una corrispondenza biunivoca fra un insieme e un suo sottoinsieme proprio
 

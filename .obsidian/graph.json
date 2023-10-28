@@ -4,9 +4,24 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"Analisi 1\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 15782983
+      }
+    },
+    {
+      "query": "path:\"Geometria e Algebra Lineare\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 7465789
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": -3,
@@ -17,6 +32,6 @@
   "repelStrength": 12.9578091951464,
   "linkStrength": 0.739359530965899,
   "linkDistance": 116,
-  "scale": 0.829803372381161,
+  "scale": 1.3755989052634015,
   "close": true
 }

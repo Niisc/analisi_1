@@ -1,6 +1,6 @@
 #lezione1
 ### Definizione
-La sommatoria è un simbolo matematico che abbrevia, in una notazione sintetica, la somma di un certo [[Insiemi|insieme]] di addendi.
+La sommatoria è un simbolo matematico che abbrevia, in una notazione sintetica, la somma di un certo [[Analisi 1/Insiemi|insieme]] di addendi.
 
 $$\sum_{i=m}^{n} f(i)$$
 Dove:

@@ -46,6 +46,7 @@ $$\frac{3-n}{n-2}\leq 0$$
 ![[Pasted image 20231015164458.png|300]]
 
 4) Strettamente decrescente $\forall n \in \mathbb{N} - \{2\} \quad a_{n+1} < a_{n}$
+
 Verifico che $a_{n+1}<a_{n}$:
 $$\frac{1}{(n+1)-2}<\frac{1}{n-2}$$
 $$\frac{1}{n-1}<\frac{1}{n-2}\rightarrow \frac{-1}{(n-1)(n-2)}<0$$

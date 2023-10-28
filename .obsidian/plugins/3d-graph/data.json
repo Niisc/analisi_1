@@ -1,0 +1,24 @@
+{
+  "filters": {
+    "doShowOrphans": true,
+    "doShowAttachments": true
+  },
+  "groups": {
+    "groups": [
+      {
+        "query": "path:\"Analisi 1\" ",
+        "color": "#ffe433"
+      },
+      {
+        "query": "path:\"\"",
+        "color": "#ea0606"
+      }
+    ]
+  },
+  "display": {
+    "nodeSize": 3,
+    "linkThickness": 2,
+    "particleSize": 11,
+    "particleCount": 16
+  }
+}

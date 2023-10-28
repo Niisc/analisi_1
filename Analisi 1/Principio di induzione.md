@@ -19,8 +19,3 @@ Sia $S \in N$ sottoinsieme di $N$ tale che:
 2) $\forall n\in S\Longrightarrow n+1 \in S$
 Allora $S=N$
 $$[(S\subseteq N)\wedge(0\in S)\wedge(\forall n\in S\Longrightarrow n+1\in S)]\Longrightarrow(S=N)$$
-#### Principio del minimo intero
-Ogni sottoinsieme non vuoto di $\mathbb{N}$ ha [[minimo]]
-
-Falso in $\mathbb{Z}$
-$A=\{z\in \mathbb{Z}: z<3\}$ 
