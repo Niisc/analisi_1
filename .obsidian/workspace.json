@@ -11,26 +11,15 @@
             "id": "15fbdb73197db6ca",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "LATEX_symbols.pdf"
-              }
-            }
-          },
-          {
-            "id": "39dc9b78c4533e9b",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "Analisi 1/Algebra dei limiti.md",
+                "file": "Analisi 1/Funzioni.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analisi 1/Algebra dei limiti.md",
+                "file": "Analisi 1/Funzioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analisi 1/Algebra dei limiti.md",
+                "file": "Analisi 1/Funzioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analisi 1/Algebra dei limiti.md"
+                "file": "Analisi 1/Funzioni.md"
               }
             }
           },
@@ -175,37 +164,36 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "39dc9b78c4533e9b",
+  "active": "15fbdb73197db6ca",
   "lastOpenFiles": [
+    "Geometria e Algebra Lineare/Relazioni di equivalenza ed insieme quoziente.md",
+    "Geometria e Algebra Lineare/Struttura algebrica.md",
+    "Analisi 1/foto-video/Pasted image 20231027174608.png",
+    "Analisi 1/foto-video/Pasted image 20231027174959.png",
+    "Geometria e Algebra Lineare/Matrici.md",
+    "Geometria e Algebra Lineare/Operazioni.md",
+    "Analisi 1/Limite notevole.md",
+    "Analisi 1/Teorema di unicità del limite.md",
+    "Analisi 1/Teorema fondamentale dell'algebra.md",
+    "Analisi 1/Principio di induzione.md",
+    "Analisi 1/Funzioni.md",
+    "Analisi 1/Algebra dei limiti.md",
     "Analisi 1/Numeri razionali.md",
     "Analisi 1/Numeri reali.md",
-    "Analisi 1/Principio di induzione.md",
     "Analisi 1/Produttoria.md",
     "Analisi 1/Sommatoria.md",
     "Analisi 1/Successioni.md",
     "Analisi 1/Teorema di esistenza del limite per successioni monotone.md",
     "Analisi 1/Teorema di permanenza  del segno.md",
-    "Analisi 1/Teorema di unicità del limite.md",
-    "Analisi 1/Teorema fondamentale dell'algebra.md",
     "Analisi 1/Combinazioni.md",
     "Analisi 1/Fattoriale.md",
-    "Analisi 1/Funzioni.md",
     "Analisi 1/Insiemi.md",
     "Analisi 1/Insiemi numerici limitati.md",
-    "Analisi 1/Limite notevole.md",
     "Analisi 1/Numerabilità.md",
     "Analisi 1/Numeri Complessi.md",
     "Analisi 1/Progressione Geometrica.md",
     "Analisi 1/Serie.md",
-    "Geometria e Algebra Lineare/Matrici.md",
-    "Geometria e Algebra Lineare/Relazioni di equivalenza ed insieme quoziente.md",
-    "Analisi 1/Numeri naturali.md",
-    "Analisi 1/Teorema del confronto di successioni.md",
-    "Analisi 1/Binomio di Newton.md",
-    "Analisi 1/Algebra dei limiti.md",
     "LATEX_symbols.pdf",
-    "Pasted image 20231027174959.png",
-    "Pasted image 20231027174608.png",
     "Geometria e Algebra Lineare",
     "Analisi 1/foto-video/Pasted image 20231015164239.png",
     "Analisi 1/foto-video/Pasted image 20231015161026.png",
