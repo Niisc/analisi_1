@@ -90,7 +90,7 @@ $$
 
 Posso supporre  che $b_{n}>\frac{1}{\varepsilon}$ perché $b_{n}>M \quad \forall M >0$
 
-Allora $\forall \varepsilon >0 \quad \exists \bar{n}=max{n_{0},n_{1},n_{2}}$ tale che $\forall n>\bar{n}$
+Allora $\forall \varepsilon >0 \quad \exists \bar{n}=\max\{n_{0},n_{1},n_{2}\}$ tale che $\forall n>\bar{n}$
 $$
 \left|\frac{a_{n}}{b_{n}} \right|-0 < (|l|+\varepsilon) = k\varepsilon
 $$Poiché $\frac{1}{b_{n}}<\varepsilon$ 
@@ -150,6 +150,23 @@ $$
 > $$\lim_{ n \to \infty } \frac{\sqrt{ n }+n^{8}-n^{2}}{7n^{3}-3n^{7}+n^{10}}$$
 > $$a_{n} = \sqrt{ n } + n^{8} -n^{2}$$
 > $$b_{n}=7n^{3}-3n^{7}+n^{10}$$
-> (da finire)
+> $$\lim_{ n \to \infty } \frac{{n^{7}\left( 1+\frac{8}{n^{4}}-\frac{1}{n^{6}\sqrt{ n }} \right)}}{n^{5}\left( -1+\frac{1}{n^{3}}+\frac{1}{n^{5}} \right)}$$
+> Dove:
+> $$\lim_{ n \to \infty } \frac{8}{n^{4}}=\lim_{ n \to \infty } \frac{1}{n^{6} \sqrt{ n }}=\lim_{ n \to \infty } \frac{1}{n^{3}}=\lim_{ n \to \infty } \frac{1}{n^{5}}=0$$
+> $$\lim_{ n \to \infty } \left( 1+\frac{8}{n^{4}}-\frac{1}{n^{6}\sqrt{ n }} \right)=1$$
+$$\lim_{ n \to \infty } \left( -1+\frac{1}{n^{2}}+\frac{1}{n^{5}} \right)=-1$$
+$$=\lim_{ n \to \infty } n^{2} \cdot \frac{1}{-1}=- \infty$$
+
+>[!example] Esempio
+> $$\lim_{ n \to \infty } \ln\left( \frac{{n^{3}+2n^{2}}}{n 2^{n}} \right)$$
+> $$\lim_{ n \to \infty } \frac{{n^{3}+2n^{2}}}{2^{n}n}=\lim_{ n \to \infty } \frac{{n^{\overbrace{ \cancel{ 3 } }^{ 2 }}\left( 1+\frac{2}{n} \right)}}{2^{n}\cancel{ n }}$$
+> Dove: $\lim_{ n \to \infty } \frac{2}{n}=0$
+> $$=\lim_{ n \to \infty } \frac{{n^{2}\cdot 1}}{2^{n}}=0$$
+> $$=\lim_{ n \to \infty } \ln\underbrace{ \left( \frac{{n^{3}+2n}}{n 2^{n}} \right) }_{ =0 }=- \infty$$
+
+>[!info] Osservazione
+>Data $a_{n}$ successione convergente a $0$ e data $b_{n}$ successione divergente a $+ \infty$
+> $$\lim_{ n \to \infty } a_{n}\cdot b_{n} = ?$$
+> Forma di indeterminazione $[0 \cdot \infty]$
 
 

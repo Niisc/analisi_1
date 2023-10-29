@@ -1,0 +1,1 @@
+È convergente a $a_{n}$ 
