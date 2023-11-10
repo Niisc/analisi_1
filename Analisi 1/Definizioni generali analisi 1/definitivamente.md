@@ -1,0 +1,1 @@
+Condizione rispettata da $\forall n$ a partire da un certo valore $n_{0}$
