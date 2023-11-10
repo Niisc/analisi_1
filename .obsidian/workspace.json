@@ -4,32 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "72d1901f64dec97a",
+        "id": "7fd36eac109b3787",
         "type": "tabs",
         "children": [
           {
-            "id": "15fbdb73197db6ca",
+            "id": "7948f46e7c1b149d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analisi 1/Numero di Eulero.md",
+                "file": "Programma Analisi 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6a9e0288db4a5967",
+            "id": "489e3973577217ab",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "LATEX_symbols.pdf"
+                "file": "Analisi 1/Funzioni/Teorema del confronto funzioni.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -58,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "successioni",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.50390243530273
+    "width": 339.50390243530273
   },
   "right": {
     "id": "1fecc335317922d4",
@@ -95,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analisi 1/Numero di Eulero.md",
+                "file": "Analisi 1/Funzioni/Teorema del confronto funzioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analisi 1/Numero di Eulero.md",
+                "file": "Analisi 1/Funzioni/Teorema del confronto funzioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analisi 1/Numero di Eulero.md"
+                "file": "Analisi 1/Funzioni/Teorema del confronto funzioni.md"
               }
             }
           },
@@ -175,40 +178,53 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "15fbdb73197db6ca",
+  "active": "d436580b1ecc6c69",
   "lastOpenFiles": [
-    "Analisi 1/Algebra dei limiti.md",
-    "Analisi 1/Teorema di esistenza del limite per successioni monotone.md",
-    "Analisi 1/Numero di Eulero.md",
-    "LATEX_symbols.pdf",
-    "Analisi 1/Limite notevole.md",
-    "Analisi 1/Successioni.md",
-    "Analisi 1/Serie.md",
-    "Analisi 1/Teorema del confronto di successioni.md",
-    "Analisi 1/Funzioni.md",
-    "Geometria e Algebra Lineare/Relazioni di equivalenza ed insieme quoziente.md",
+    "Analisi 1/Funzioni/Limiti di funzione.md",
+    "Analisi 1/Funzioni/Teorema del confronto funzioni.md",
+    "Analisi 1/Funzioni/Funzioni.md",
+    "Geometria e Algebra Lineare/Endomorfismi e diagonalizzazione/Endomorfismi e Automorfismi.md",
+    "Geometria e Algebra Lineare/Algebra astratta/Operazioni.md",
+    "Geometria e Algebra Lineare/Algebra astratta/Struttura algebrica.md",
+    "Programma Analisi 1.md",
+    "Geometria e Algebra Lineare/Endomorfismi e diagonalizzazione/Autovalori ed autovettori.md",
+    "Geometria e Algebra Lineare/Algebra astratta/Relazioni di equivalenza ed insieme quoziente.md",
+    "Analisi 1/Insiemi numerici/Relazioni.md",
+    "Analisi 1/Funzioni/Teorema ponte.md",
+    "Geometria e Algebra Lineare/Applicazioni lineari/Applicazioni lineari.md",
+    "Geometria e Algebra Lineare/Spazi vettoriali/Spazi vettoriali.md",
+    "Geometria e Algebra Lineare/Matrici/Matrici.md",
+    "Geometria e Algebra Lineare/Isometrie ed applicazioni aggiunte",
+    "Geometria e Algebra Lineare/untitled folder",
+    "Geometria e Algebra Lineare/Spazi vettoriali euclidei",
+    "Geometria e Algebra Lineare/Geometria affine",
+    "Geometria e Algebra Lineare/Endomorfismi e diagonalizzazione",
+    "Geometria e Algebra Lineare/Applicazioni lineari",
+    "Geometria e Algebra Lineare/Spazi vettoriali",
+    "Geometria e Algebra Lineare/Matrici",
+    "Geometria e Algebra Lineare/Algebra astratta",
+    "Analisi 1/Successioni/Limiti notevoli di successioni.md",
+    "Analisi 1/Successioni/Algebra dei limiti di successioni.md",
+    "Geometria e Algebra Lineare/Applicazioni lineari.md",
+    "Geometria e Algebra Lineare/Operazioni.md",
+    "Geometria e Algebra Lineare/Spazi vettoriali.md",
     "Geometria e Algebra Lineare/Struttura algebrica.md",
+    "Geometria e Algebra Lineare/Relazioni di equivalenza ed insieme quoziente.md",
+    "Geometria e Algebra Lineare/Matrici.md",
+    "Analisi 1/Definizioni generali analisi 1/Principio di induzione.md",
+    "Analisi 1/Definizioni generali analisi 1/Principio di Bernoulli.md",
+    "Analisi 1/Definizioni generali analisi 1/Fattoriale.md",
+    "Analisi 1/Definizioni generali analisi 1/definitivamente.md",
+    "Analisi 1/foto-video/photo1699357565.jpeg",
+    "Analisi 1/foto-video/photo1697212805 (3).jpeg",
+    "Analisi 1/foto-video/photo1697212805 (2).jpeg",
+    "Analisi 1/foto-video/photo1697212805 (1).jpeg",
+    "Analisi 1/foto-video/photo1696785653.jpeg",
+    "Analisi 1/Funzioni",
+    "Analisi 1/foto-video/Pasted image 20231106192449.png",
+    "Pasted image 20231106192449.png",
     "Analisi 1/foto-video/Pasted image 20231027174608.png",
     "Analisi 1/foto-video/Pasted image 20231027174959.png",
-    "Geometria e Algebra Lineare/Matrici.md",
-    "Geometria e Algebra Lineare/Operazioni.md",
-    "Analisi 1/Teorema di unicità del limite.md",
-    "Analisi 1/Teorema fondamentale dell'algebra.md",
-    "Analisi 1/Principio di induzione.md",
-    "Analisi 1/Numeri razionali.md",
-    "Analisi 1/Numeri reali.md",
-    "Analisi 1/Produttoria.md",
-    "Analisi 1/Sommatoria.md",
-    "Analisi 1/Teorema di permanenza  del segno.md",
-    "Analisi 1/Combinazioni.md",
-    "Analisi 1/Fattoriale.md",
-    "Analisi 1/Insiemi.md",
-    "Analisi 1/Insiemi numerici limitati.md",
-    "Analisi 1/Numerabilità.md",
-    "Analisi 1/Numeri Complessi.md",
-    "Geometria e Algebra Lineare",
-    "Analisi 1/foto-video/Pasted image 20231015164239.png",
-    "Analisi 1/foto-video/Pasted image 20231015161026.png",
-    "Analisi 1/foto-video/Pasted image 20231015164458.png"
+    "Analisi 1/foto-video/Pasted image 20231015164239.png"
   ]
 }

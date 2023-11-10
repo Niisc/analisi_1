@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:\"Analisi 1\"  ",
@@ -20,6 +20,13 @@
         "a": 1,
         "rgb": 7465789
       }
+    },
+    {
+      "query": "path:\"Economia e organizzazione aziendale\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 37375
+      }
     }
   ],
   "collapse-display": false,
@@ -32,6 +39,6 @@
   "repelStrength": 12.9578091951464,
   "linkStrength": 0.739359530965899,
   "linkDistance": 116,
-  "scale": 0.583297307670937,
+  "scale": 2.2456222968192483,
   "close": true
 }
